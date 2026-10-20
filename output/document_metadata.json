@@ -1,0 +1,2902 @@
+[
+  {
+    "doc_id": "PEP-0008",
+    "title": "Style Guide for Python Code",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0008.rst",
+    "source_url": "https://peps.python.org/pep-0008/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0008.rst",
+    "sections": [
+      {
+        "title": "Introduction",
+        "start": 263
+      },
+      {
+        "title": "A Foolish Consistency is the Hobgoblin of Little Minds",
+        "start": 1019
+      },
+      {
+        "title": "Code Lay-out",
+        "start": 2571
+      },
+      {
+        "title": "Indentation",
+        "start": 2598
+      },
+      {
+        "title": "Tabs or Spaces?",
+        "start": 6194
+      },
+      {
+        "title": "Maximum Line Length",
+        "start": 6427
+      },
+      {
+        "title": "Should a Line Break Before or After a Binary Operator?",
+        "start": 8588
+      },
+      {
+        "title": "Blank Lines",
+        "start": 10185
+      },
+      {
+        "title": "Source File Encoding",
+        "start": 10950
+      },
+      {
+        "title": "Imports",
+        "start": 11686
+      },
+      {
+        "title": "Module Level Dunder Names",
+        "start": 14284
+      },
+      {
+        "title": "String Quotes",
+        "start": 14960
+      },
+      {
+        "title": "Whitespace in Expressions and Statements",
+        "start": 15417
+      },
+      {
+        "title": "Pet Peeves",
+        "start": 15500
+      },
+      {
+        "title": "Other Recommendations",
+        "start": 17839
+      },
+      {
+        "title": "When to Use Trailing Commas",
+        "start": 21397
+      },
+      {
+        "title": "Comments",
+        "start": 22571
+      },
+      {
+        "title": "Block Comments",
+        "start": 23483
+      },
+      {
+        "title": "Inline Comments",
+        "start": 23840
+      },
+      {
+        "title": "Documentation Strings",
+        "start": 24392
+      },
+      {
+        "title": "Naming Conventions",
+        "start": 25242
+      },
+      {
+        "title": "Overriding Principle",
+        "start": 25649
+      },
+      {
+        "title": "Descriptive: Naming Styles",
+        "start": 25828
+      },
+      {
+        "title": "Prescriptive: Naming Conventions",
+        "start": 28283
+      },
+      {
+        "title": "Names to Avoid",
+        "start": 28350
+      },
+      {
+        "title": "ASCII Compatibility",
+        "start": 28657
+      },
+      {
+        "title": "Package and Module Names",
+        "start": 28851
+      },
+      {
+        "title": "Class Names",
+        "start": 29343
+      },
+      {
+        "title": "Type Variable Names",
+        "start": 29768
+      },
+      {
+        "title": "Exception Names",
+        "start": 30248
+      },
+      {
+        "title": "Global Variable Names",
+        "start": 30471
+      },
+      {
+        "title": "Function and Variable Names",
+        "start": 30932
+      },
+      {
+        "title": "Function and Method Arguments",
+        "start": 31298
+      },
+      {
+        "title": "Method Names and Instance Variables",
+        "start": 31772
+      },
+      {
+        "title": "Constants",
+        "start": 32560
+      },
+      {
+        "title": "Designing for Inheritance",
+        "start": 32750
+      },
+      {
+        "title": "Public and Internal Interfaces",
+        "start": 36131
+      },
+      {
+        "title": "Programming Recommendations",
+        "start": 37475
+      },
+      {
+        "title": "Function Annotations",
+        "start": 47057
+      },
+      {
+        "title": "Variable Annotations",
+        "start": 48987
+      },
+      {
+        "title": "References",
+        "start": 50424
+      },
+      {
+        "title": "Copyright",
+        "start": 50709
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0020",
+    "title": "The Zen of Python",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0020.rst",
+    "source_url": "https://peps.python.org/pep-0020/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0020.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 159
+      },
+      {
+        "title": "The Zen of Python",
+        "start": 341
+      },
+      {
+        "title": "Easter Egg",
+        "start": 1301
+      },
+      {
+        "title": "References",
+        "start": 1367
+      },
+      {
+        "title": "Copyright",
+        "start": 1575
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0257",
+    "title": "Docstring Conventions",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0257.rst",
+    "source_url": "https://peps.python.org/pep-0257/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0257.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 245
+      },
+      {
+        "title": "Rationale",
+        "start": 350
+      },
+      {
+        "title": "Specification",
+        "start": 1139
+      },
+      {
+        "title": "What is a Docstring?",
+        "start": 1168
+      },
+      {
+        "title": "One-line Docstrings",
+        "start": 2664
+      },
+      {
+        "title": "Multi-line Docstrings",
+        "start": 4106
+      },
+      {
+        "title": "Handling Docstring Indentation",
+        "start": 7827
+      },
+      {
+        "title": "References and Footnotes",
+        "start": 10109
+      },
+      {
+        "title": "Copyright",
+        "start": 10278
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 10353
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0342",
+    "title": "Coroutines via Enhanced Generators",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0342.rst",
+    "source_url": "https://peps.python.org/pep-0342/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0342.rst",
+    "sections": [
+      {
+        "title": "Introduction",
+        "start": 185
+      },
+      {
+        "title": "Motivation",
+        "start": 934
+      },
+      {
+        "title": "Specification Summary",
+        "start": 3499
+      },
+      {
+        "title": "Specification: Sending Values into Generators",
+        "start": 5862
+      },
+      {
+        "title": "New generator method: ``send(value)``",
+        "start": 5955
+      },
+      {
+        "title": "New syntax: Yield Expressions",
+        "start": 7268
+      },
+      {
+        "title": "Specification: Exceptions and Cleanup",
+        "start": 9594
+      },
+      {
+        "title": "New syntax: ``yield`` allowed inside ``try-finally``",
+        "start": 9802
+      },
+      {
+        "title": "New generator method: ``throw(type, value=None, traceback=None)``",
+        "start": 10020
+      },
+      {
+        "title": "New standard exception: ``GeneratorExit``",
+        "start": 12188
+      },
+      {
+        "title": "New generator method: ``close()``",
+        "start": 12469
+      },
+      {
+        "title": "New generator method: __del__()",
+        "start": 12854
+      },
+      {
+        "title": "Optional Extensions",
+        "start": 14883
+      },
+      {
+        "title": "The Extended ``continue`` Statement",
+        "start": 14924
+      },
+      {
+        "title": "Open Issues",
+        "start": 15514
+      },
+      {
+        "title": "Examples",
+        "start": 17571
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 24548
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 24809
+      },
+      {
+        "title": "References",
+        "start": 25193
+      },
+      {
+        "title": "Copyright",
+        "start": 25222
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0343",
+    "title": "The \"with\" Statement",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0343.rst",
+    "source_url": "https://peps.python.org/pep-0343/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0343.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 261
+      },
+      {
+        "title": "Author's Note",
+        "start": 577
+      },
+      {
+        "title": "Introduction",
+        "start": 1191
+      },
+      {
+        "title": "Motivation and Summary",
+        "start": 2538
+      },
+      {
+        "title": "Use Cases",
+        "start": 8917
+      },
+      {
+        "title": "Specification: The 'with' Statement",
+        "start": 8978
+      },
+      {
+        "title": "Transition Plan",
+        "start": 14552
+      },
+      {
+        "title": "Generator Decorator",
+        "start": 14974
+      },
+      {
+        "title": "Context Managers in the Standard Library",
+        "start": 17102
+      },
+      {
+        "title": "Standard Terminology",
+        "start": 18409
+      },
+      {
+        "title": "Caching Context Managers",
+        "start": 19942
+      },
+      {
+        "title": "Resolved Issues",
+        "start": 21114
+      },
+      {
+        "title": "Rejected Options",
+        "start": 22763
+      },
+      {
+        "title": "Examples",
+        "start": 23611
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 33187
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 33498
+      },
+      {
+        "title": "References",
+        "start": 33972
+      },
+      {
+        "title": "Copyright",
+        "start": 36010
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0380",
+    "title": "Syntax for Delegating to a Subgenerator",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0380.rst",
+    "source_url": "https://peps.python.org/pep-0380/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0380.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 280
+      },
+      {
+        "title": "PEP Acceptance",
+        "start": 746
+      },
+      {
+        "title": "Motivation",
+        "start": 925
+      },
+      {
+        "title": "Proposal",
+        "start": 2122
+      },
+      {
+        "title": "Enhancements to StopIteration",
+        "start": 4234
+      },
+      {
+        "title": "Formal Semantics",
+        "start": 4448
+      },
+      {
+        "title": "Rationale",
+        "start": 6291
+      },
+      {
+        "title": "The Refactoring Principle",
+        "start": 6312
+      },
+      {
+        "title": "Finalization",
+        "start": 7643
+      },
+      {
+        "title": "Generators as Threads",
+        "start": 8561
+      },
+      {
+        "title": "Syntax",
+        "start": 10273
+      },
+      {
+        "title": "Optimisations",
+        "start": 10474
+      },
+      {
+        "title": "Use of StopIteration to return values",
+        "start": 11526
+      },
+      {
+        "title": "Rejected Ideas",
+        "start": 12388
+      },
+      {
+        "title": "Criticisms",
+        "start": 14355
+      },
+      {
+        "title": "Alternative Proposals",
+        "start": 15952
+      },
+      {
+        "title": "Additional Material",
+        "start": 16601
+      },
+      {
+        "title": "Copyright",
+        "start": 17077
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0435",
+    "title": "Adding an Enum type to the Python standard library",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0435.rst",
+    "source_url": "https://peps.python.org/pep-0435/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0435.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 402
+      },
+      {
+        "title": "Status of discussions",
+        "start": 689
+      },
+      {
+        "title": "Motivation",
+        "start": 2477
+      },
+      {
+        "title": "Module and type name",
+        "start": 3451
+      },
+      {
+        "title": "Proposed semantics for the new enumeration type",
+        "start": 3702
+      },
+      {
+        "title": "Creating an Enum",
+        "start": 3799
+      },
+      {
+        "title": "Programmatic access to enumeration members",
+        "start": 5481
+      },
+      {
+        "title": "Duplicating enum members and values",
+        "start": 6007
+      },
+      {
+        "title": "Comparisons",
+        "start": 7633
+      },
+      {
+        "title": "Allowed members and attributes of enumerations",
+        "start": 8480
+      },
+      {
+        "title": "Restricted subclassing of enumerations",
+        "start": 9758
+      },
+      {
+        "title": "IntEnum",
+        "start": 10604
+      },
+      {
+        "title": "Other derived enumerations",
+        "start": 12036
+      },
+      {
+        "title": "Pickling",
+        "start": 12821
+      },
+      {
+        "title": "Functional API",
+        "start": 13202
+      },
+      {
+        "title": "Proposed variations",
+        "start": 14681
+      },
+      {
+        "title": "flufl.enum",
+        "start": 14836
+      },
+      {
+        "title": "Not having to specify values for enums",
+        "start": 15344
+      },
+      {
+        "title": "Using special names or forms to auto-assign enum values",
+        "start": 15971
+      },
+      {
+        "title": "Use-cases in the standard library",
+        "start": 16980
+      },
+      {
+        "title": "Acknowledgments",
+        "start": 18477
+      },
+      {
+        "title": "References",
+        "start": 18722
+      },
+      {
+        "title": "Copyright",
+        "start": 20080
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0440",
+    "title": "Version Identification and Dependency Specification",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0440.rst",
+    "source_url": "https://peps.python.org/pep-0440/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0440.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 604
+      },
+      {
+        "title": "Definitions",
+        "start": 917
+      },
+      {
+        "title": "Version scheme",
+        "start": 2632
+      },
+      {
+        "title": "Public version identifiers",
+        "start": 3008
+      },
+      {
+        "title": "Local version identifiers",
+        "start": 5093
+      },
+      {
+        "title": "Final releases",
+        "start": 8464
+      },
+      {
+        "title": "Pre-releases",
+        "start": 10115
+      },
+      {
+        "title": "Post-releases",
+        "start": 11373
+      },
+      {
+        "title": "Developmental releases",
+        "start": 12876
+      },
+      {
+        "title": "Version epochs",
+        "start": 14792
+      },
+      {
+        "title": "Normalization",
+        "start": 15834
+      },
+      {
+        "title": "Case sensitivity",
+        "start": 16162
+      },
+      {
+        "title": "Integer Normalization",
+        "start": 16390
+      },
+      {
+        "title": "Pre-release separators",
+        "start": 16811
+      },
+      {
+        "title": "Pre-release spelling",
+        "start": 17296
+      },
+      {
+        "title": "Implicit pre-release number",
+        "start": 17721
+      },
+      {
+        "title": "Post release separators",
+        "start": 18005
+      },
+      {
+        "title": "Post release spelling",
+        "start": 18508
+      },
+      {
+        "title": "Implicit post release number",
+        "start": 18802
+      },
+      {
+        "title": "Implicit post releases",
+        "start": 19097
+      },
+      {
+        "title": "Development release separators",
+        "start": 19567
+      },
+      {
+        "title": "Implicit development release number",
+        "start": 19887
+      },
+      {
+        "title": "Local version segments",
+        "start": 20201
+      },
+      {
+        "title": "Preceding v character",
+        "start": 20509
+      },
+      {
+        "title": "Leading and Trailing Whitespace",
+        "start": 20860
+      },
+      {
+        "title": "Examples of compliant version schemes",
+        "start": 21223
+      },
+      {
+        "title": "Summary of permitted suffixes and relative ordering",
+        "start": 22724
+      },
+      {
+        "title": "Version ordering across different metadata versions",
+        "start": 24985
+      },
+      {
+        "title": "Compatibility with other version schemes",
+        "start": 26240
+      },
+      {
+        "title": "Semantic versioning",
+        "start": 26825
+      },
+      {
+        "title": "DVCS based version labels",
+        "start": 28045
+      },
+      {
+        "title": "Olson database versioning",
+        "start": 28625
+      },
+      {
+        "title": "Version specifiers",
+        "start": 29258
+      },
+      {
+        "title": "Compatible release",
+        "start": 30615
+      },
+      {
+        "title": "Version matching",
+        "start": 31968
+      },
+      {
+        "title": "Version exclusion",
+        "start": 35820
+      },
+      {
+        "title": "Inclusive ordered comparison",
+        "start": 36413
+      },
+      {
+        "title": "Exclusive ordered comparison",
+        "start": 37064
+      },
+      {
+        "title": "Arbitrary equality",
+        "start": 38517
+      },
+      {
+        "title": "Handling of pre-releases",
+        "start": 39472
+      },
+      {
+        "title": "Examples",
+        "start": 40839
+      },
+      {
+        "title": "Direct references",
+        "start": 41433
+      },
+      {
+        "title": "File URLs",
+        "start": 44939
+      },
+      {
+        "title": "Updating the versioning specification",
+        "start": 45978
+      },
+      {
+        "title": "Summary of differences from pkg_resources.parse_version",
+        "start": 46355
+      },
+      {
+        "title": "Summary of differences from PEP 386",
+        "start": 47293
+      },
+      {
+        "title": "Changing the version scheme",
+        "start": 48676
+      },
+      {
+        "title": "A more opinionated description of the versioning scheme",
+        "start": 50862
+      },
+      {
+        "title": "Describing version specifiers alongside the versioning scheme",
+        "start": 52082
+      },
+      {
+        "title": "Changing the interpretation of version specifiers",
+        "start": 52459
+      },
+      {
+        "title": "Support for date based version identifiers",
+        "start": 54216
+      },
+      {
+        "title": "Adding version epochs",
+        "start": 54601
+      },
+      {
+        "title": "Adding direct references",
+        "start": 55407
+      },
+      {
+        "title": "Adding arbitrary equality",
+        "start": 56282
+      },
+      {
+        "title": "Adding local version identifiers",
+        "start": 56862
+      },
+      {
+        "title": "Providing explicit version normalization rules",
+        "start": 59142
+      },
+      {
+        "title": "Allowing Underscore in Normalization",
+        "start": 61138
+      },
+      {
+        "title": "Summary of changes to PEP 440",
+        "start": 61516
+      },
+      {
+        "title": "References",
+        "start": 62815
+      },
+      {
+        "title": "Appendix A",
+        "start": 64223
+      },
+      {
+        "title": "Appendix B : Parsing version strings with regular expressions",
+        "start": 64650
+      },
+      {
+        "title": "Copyright",
+        "start": 66761
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0484",
+    "title": "Type Hints",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0484.rst",
+    "source_url": "https://peps.python.org/pep-0484/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0484.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 462
+      },
+      {
+        "title": "Rationale and Goals",
+        "start": 2799
+      },
+      {
+        "title": "Non-goals",
+        "start": 3593
+      },
+      {
+        "title": "The meaning of annotations",
+        "start": 4176
+      },
+      {
+        "title": "Type Definition Syntax",
+        "start": 6039
+      },
+      {
+        "title": "Acceptable type hints",
+        "start": 6580
+      },
+      {
+        "title": "Using None",
+        "start": 8053
+      },
+      {
+        "title": "Type aliases",
+        "start": 8172
+      },
+      {
+        "title": "Callable",
+        "start": 9359
+      },
+      {
+        "title": "Generics",
+        "start": 10762
+      },
+      {
+        "title": "User-defined generic types",
+        "start": 13235
+      },
+      {
+        "title": "Scoping rules for type variables",
+        "start": 15897
+      },
+      {
+        "title": "Instantiating generic classes and type erasure",
+        "start": 18760
+      },
+      {
+        "title": "Arbitrary generic types as base classes",
+        "start": 22230
+      },
+      {
+        "title": "Abstract generic types",
+        "start": 23928
+      },
+      {
+        "title": "Type variables with an upper bound",
+        "start": 24205
+      },
+      {
+        "title": "Covariance and contravariance",
+        "start": 25177
+      },
+      {
+        "title": "The numeric tower",
+        "start": 28696
+      },
+      {
+        "title": "Forward references",
+        "start": 29622
+      },
+      {
+        "title": "Union types",
+        "start": 32216
+      },
+      {
+        "title": "Support for singleton types in unions",
+        "start": 33658
+      },
+      {
+        "title": "The ``Any`` type",
+        "start": 35394
+      },
+      {
+        "title": "The ``NoReturn`` type",
+        "start": 36966
+      },
+      {
+        "title": "The type of class objects",
+        "start": 38354
+      },
+      {
+        "title": "Annotating instance and class methods",
+        "start": 42419
+      },
+      {
+        "title": "Version and platform checking",
+        "start": 43616
+      },
+      {
+        "title": "Runtime or type checking?",
+        "start": 44108
+      },
+      {
+        "title": "Arbitrary argument lists and default argument values",
+        "start": 44938
+      },
+      {
+        "title": "Positional-only arguments",
+        "start": 45938
+      },
+      {
+        "title": "Annotating generator functions and coroutines",
+        "start": 46420
+      },
+      {
+        "title": "Compatibility with other uses of function annotations",
+        "start": 47928
+      },
+      {
+        "title": "Type comments",
+        "start": 49179
+      },
+      {
+        "title": "Casts",
+        "start": 51856
+      },
+      {
+        "title": "NewType helper function",
+        "start": 53091
+      },
+      {
+        "title": "Stub Files",
+        "start": 55197
+      },
+      {
+        "title": "Function/method overloading",
+        "start": 57766
+      },
+      {
+        "title": "Storing and distributing stub files",
+        "start": 62401
+      },
+      {
+        "title": "The Typeshed Repo",
+        "start": 65109
+      },
+      {
+        "title": "Exceptions",
+        "start": 65480
+      },
+      {
+        "title": "The ``typing`` Module",
+        "start": 65716
+      },
+      {
+        "title": "Suggested syntax for Python 2.7 and straddling code",
+        "start": 71211
+      },
+      {
+        "title": "Rejected Alternatives",
+        "start": 75508
+      },
+      {
+        "title": "Which brackets for generic type parameters?",
+        "start": 75767
+      },
+      {
+        "title": "What about existing uses of annotations?",
+        "start": 77927
+      },
+      {
+        "title": "The problem of forward declarations",
+        "start": 80721
+      },
+      {
+        "title": "The double colon",
+        "start": 83155
+      },
+      {
+        "title": "Other forms of new syntax",
+        "start": 85409
+      },
+      {
+        "title": "Other backwards compatible conventions",
+        "start": 85782
+      },
+      {
+        "title": "PEP Development Process",
+        "start": 86973
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 87344
+      },
+      {
+        "title": "Copyright",
+        "start": 88540
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0492",
+    "title": "Coroutines with async and await syntax",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0492.rst",
+    "source_url": "https://peps.python.org/pep-0492/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0492.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 291
+      },
+      {
+        "title": "API Design and Implementation Revisions",
+        "start": 1540
+      },
+      {
+        "title": "Rationale and Goals",
+        "start": 2832
+      },
+      {
+        "title": "Specification",
+        "start": 4388
+      },
+      {
+        "title": "New Coroutine Declaration Syntax",
+        "start": 5116
+      },
+      {
+        "title": "types.coroutine()",
+        "start": 6345
+      },
+      {
+        "title": "Await Expression",
+        "start": 7190
+      },
+      {
+        "title": "Asynchronous Context Managers and \"async with\"",
+        "start": 15104
+      },
+      {
+        "title": "Asynchronous Iterators and \"async for\"",
+        "start": 16973
+      },
+      {
+        "title": "Coroutine objects",
+        "start": 21562
+      },
+      {
+        "title": "Debugging Features",
+        "start": 23335
+      },
+      {
+        "title": "New Standard Library Functions",
+        "start": 25038
+      },
+      {
+        "title": "New Abstract Base Classes",
+        "start": 26359
+      },
+      {
+        "title": "Glossary",
+        "start": 27536
+      },
+      {
+        "title": "Transition Plan",
+        "start": 29348
+      },
+      {
+        "title": "Backwards Compatibility",
+        "start": 30207
+      },
+      {
+        "title": "Grammar Updates",
+        "start": 31818
+      },
+      {
+        "title": "Deprecation Plans",
+        "start": 32259
+      },
+      {
+        "title": "Design Considerations",
+        "start": 32551
+      },
+      {
+        "title": "PEP 3152",
+        "start": 32596
+      },
+      {
+        "title": "Coroutine-generators",
+        "start": 35806
+      },
+      {
+        "title": "Why \"async\" and \"await\" keywords",
+        "start": 36501
+      },
+      {
+        "title": "Why \"__aiter__\" does not return an awaitable",
+        "start": 37111
+      },
+      {
+        "title": "Importance of \"async\" keyword",
+        "start": 37654
+      },
+      {
+        "title": "Why \"async def\"",
+        "start": 38401
+      },
+      {
+        "title": "Why not \"await for\" and \"await with\"",
+        "start": 38813
+      },
+      {
+        "title": "Why \"async def\" and not \"def async\"",
+        "start": 39098
+      },
+      {
+        "title": "Why not a __future__ import",
+        "start": 39799
+      },
+      {
+        "title": "Why magic methods start with \"a\"",
+        "start": 40139
+      },
+      {
+        "title": "Why not reuse existing magic names",
+        "start": 40578
+      },
+      {
+        "title": "Why not reuse existing \"for\" and \"with\" statements",
+        "start": 41380
+      },
+      {
+        "title": "Comprehensions",
+        "start": 41820
+      },
+      {
+        "title": "Async lambda functions",
+        "start": 41967
+      },
+      {
+        "title": "Performance",
+        "start": 42132
+      },
+      {
+        "title": "Overall Impact",
+        "start": 42157
+      },
+      {
+        "title": "Tokenizer modifications",
+        "start": 43017
+      },
+      {
+        "title": "async/await",
+        "start": 43258
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 44464
+      },
+      {
+        "title": "List of high-level changes and new protocols",
+        "start": 44570
+      },
+      {
+        "title": "Working example",
+        "start": 46412
+      },
+      {
+        "title": "Acceptance",
+        "start": 47182
+      },
+      {
+        "title": "Implementation",
+        "start": 47269
+      },
+      {
+        "title": "References",
+        "start": 47388
+      },
+      {
+        "title": "Acknowledgments",
+        "start": 48693
+      },
+      {
+        "title": "Copyright",
+        "start": 49117
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0498",
+    "title": "Literal String Interpolation",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0498.rst",
+    "source_url": "https://peps.python.org/pep-0498/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0498.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 328
+      },
+      {
+        "title": "Rationale",
+        "start": 1957
+      },
+      {
+        "title": "No use of globals() or locals()",
+        "start": 4740
+      },
+      {
+        "title": "Specification",
+        "start": 6170
+      },
+      {
+        "title": "Escape sequences",
+        "start": 9668
+      },
+      {
+        "title": "Code equivalence",
+        "start": 10857
+      },
+      {
+        "title": "Expression evaluation",
+        "start": 11358
+      },
+      {
+        "title": "Format specifiers",
+        "start": 12435
+      },
+      {
+        "title": "Concatenating strings",
+        "start": 12958
+      },
+      {
+        "title": "Error handling",
+        "start": 13685
+      },
+      {
+        "title": "Leading and trailing whitespace in expressions is ignored",
+        "start": 14764
+      },
+      {
+        "title": "Evaluation order of expressions",
+        "start": 15049
+      },
+      {
+        "title": "Discussion",
+        "start": 15460
+      },
+      {
+        "title": "python-ideas discussion",
+        "start": 15483
+      },
+      {
+        "title": "How to denote f-strings",
+        "start": 15738
+      },
+      {
+        "title": "How to specify the location of expressions in f-strings",
+        "start": 16570
+      },
+      {
+        "title": "Supporting full Python expressions",
+        "start": 17657
+      },
+      {
+        "title": "Similar support in other languages",
+        "start": 18528
+      },
+      {
+        "title": "Differences between f-string and str.format expressions",
+        "start": 18785
+      },
+      {
+        "title": "Triple-quoted f-strings",
+        "start": 20010
+      },
+      {
+        "title": "Raw f-strings",
+        "start": 20276
+      },
+      {
+        "title": "No binary f-strings",
+        "start": 20545
+      },
+      {
+        "title": "``!s``, ``!r``, and ``!a`` are redundant",
+        "start": 21338
+      },
+      {
+        "title": "Lambdas inside expressions",
+        "start": 22025
+      },
+      {
+        "title": "Can't combine with 'u'",
+        "start": 22561
+      },
+      {
+        "title": "Examples from Python's source code",
+        "start": 22852
+      },
+      {
+        "title": "References",
+        "start": 23867
+      },
+      {
+        "title": "Copyright",
+        "start": 25030
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0517",
+    "title": "A build-system independent format for source trees",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0517.rst",
+    "source_url": "https://peps.python.org/pep-0517/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0517.rst",
+    "sections": [
+      {
+        "title": " Abstract",
+        "start": 487
+      },
+      {
+        "title": " Terminology and goals",
+        "start": 2334
+      },
+      {
+        "title": " Source trees",
+        "start": 4241
+      },
+      {
+        "title": "Build requirements",
+        "start": 7160
+      },
+      {
+        "title": " Build backend interface",
+        "start": 8605
+      },
+      {
+        "title": "Mandatory hooks",
+        "start": 8845
+      },
+      {
+        "title": "build_wheel",
+        "start": 8878
+      },
+      {
+        "title": "build_sdist",
+        "start": 10861
+      },
+      {
+        "title": "Optional hooks",
+        "start": 12654
+      },
+      {
+        "title": "get_requires_for_build_wheel",
+        "start": 12685
+      },
+      {
+        "title": "prepare_metadata_for_build_wheel",
+        "start": 13266
+      },
+      {
+        "title": "get_requires_for_build_sdist",
+        "start": 14393
+      },
+      {
+        "title": "Config settings",
+        "start": 15367
+      },
+      {
+        "title": "Build environment",
+        "start": 17967
+      },
+      {
+        "title": "Recommendations for build frontends (non-normative)",
+        "start": 20458
+      },
+      {
+        "title": "In-tree build backends",
+        "start": 23393
+      },
+      {
+        "title": " Source distributions",
+        "start": 25545
+      },
+      {
+        "title": " Evolutionary notes",
+        "start": 26586
+      },
+      {
+        "title": " Rejected options",
+        "start": 28768
+      },
+      {
+        "title": " Summary of changes to PEP 517",
+        "start": 30849
+      },
+      {
+        "title": " Appendix A: Comparison to PEP 516",
+        "start": 31489
+      },
+      {
+        "title": "Other differences",
+        "start": 45599
+      },
+      {
+        "title": " Copyright",
+        "start": 46676
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0518",
+    "title": "Specifying Minimum Build System Requirements for Python Projects",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0518.rst",
+    "source_url": "https://peps.python.org/pep-0518/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0518.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 515
+      },
+      {
+        "title": "Rationale",
+        "start": 918
+      },
+      {
+        "title": "Specification",
+        "start": 6003
+      },
+      {
+        "title": "File Format",
+        "start": 6032
+      },
+      {
+        "title": "build-system table",
+        "start": 7068
+      },
+      {
+        "title": "tool table",
+        "start": 8388
+      },
+      {
+        "title": "JSON Schema",
+        "start": 9008
+      },
+      {
+        "title": "Rejected Ideas",
+        "start": 9834
+      },
+      {
+        "title": "A semantic version key",
+        "start": 9865
+      },
+      {
+        "title": "A more nested namespace",
+        "start": 10603
+      },
+      {
+        "title": "Other table names",
+        "start": 10947
+      },
+      {
+        "title": "Other file formats",
+        "start": 11253
+      },
+      {
+        "title": "Sticking with ``setup.cfg``",
+        "start": 17677
+      },
+      {
+        "title": "Other file names",
+        "start": 18126
+      },
+      {
+        "title": "References",
+        "start": 19482
+      },
+      {
+        "title": "Copyright",
+        "start": 20600
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0526",
+    "title": "Syntax for Variable Annotations",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0526.rst",
+    "source_url": "https://peps.python.org/pep-0526/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0526.rst",
+    "sections": [
+      {
+        "title": "Status",
+        "start": 614
+      },
+      {
+        "title": "Notice for Reviewers",
+        "start": 800
+      },
+      {
+        "title": "Abstract",
+        "start": 1194
+      },
+      {
+        "title": "Rationale",
+        "start": 2293
+      },
+      {
+        "title": "Non-goals",
+        "start": 3854
+      },
+      {
+        "title": "Specification",
+        "start": 4702
+      },
+      {
+        "title": "Global and local variable annotations",
+        "start": 5559
+      },
+      {
+        "title": "Class and instance variable annotations",
+        "start": 7131
+      },
+      {
+        "title": "Annotating expressions",
+        "start": 10081
+      },
+      {
+        "title": "Where annotations aren't allowed",
+        "start": 10711
+      },
+      {
+        "title": "Variable annotations in stub files",
+        "start": 11470
+      },
+      {
+        "title": "Preferred coding style for variable annotations",
+        "start": 12009
+      },
+      {
+        "title": "Changes to Standard Library and Documentation",
+        "start": 12674
+      },
+      {
+        "title": "Runtime Effects of Type Annotations",
+        "start": 14044
+      },
+      {
+        "title": "Other uses of annotations",
+        "start": 16740
+      },
+      {
+        "title": "Rejected/Postponed Proposals",
+        "start": 17472
+      },
+      {
+        "title": "Backwards Compatibility",
+        "start": 24904
+      },
+      {
+        "title": "Implementation",
+        "start": 24995
+      },
+      {
+        "title": "Copyright",
+        "start": 25142
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0544",
+    "title": "Protocols: Structural subtyping (static duck typing)",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0544.rst",
+    "source_url": "https://peps.python.org/pep-0544/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0544.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 599
+      },
+      {
+        "title": "Rationale and Goals",
+        "start": 993
+      },
+      {
+        "title": "Nominal vs structural subtyping",
+        "start": 2993
+      },
+      {
+        "title": "Non-goals",
+        "start": 3760
+      },
+      {
+        "title": "Existing Approaches to Structural Subtyping",
+        "start": 4810
+      },
+      {
+        "title": "Specification",
+        "start": 9530
+      },
+      {
+        "title": "Terminology",
+        "start": 9559
+      },
+      {
+        "title": "Defining a protocol",
+        "start": 11066
+      },
+      {
+        "title": "Protocol members",
+        "start": 12337
+      },
+      {
+        "title": "Explicitly declaring implementation",
+        "start": 14351
+      },
+      {
+        "title": "Merging and extending protocols",
+        "start": 16822
+      },
+      {
+        "title": "Generic protocols",
+        "start": 19006
+      },
+      {
+        "title": "Recursive protocols",
+        "start": 20703
+      },
+      {
+        "title": "Self-types in protocols",
+        "start": 21620
+      },
+      {
+        "title": "Callback protocols",
+        "start": 22125
+      },
+      {
+        "title": "Using Protocols",
+        "start": 23038
+      },
+      {
+        "title": "Subtyping relationships with other types",
+        "start": 23071
+      },
+      {
+        "title": "Unions and intersections of protocols",
+        "start": 24803
+      },
+      {
+        "title": "``Type[]`` and class objects vs protocols",
+        "start": 25882
+      },
+      {
+        "title": "``NewType()`` and type aliases",
+        "start": 27291
+      },
+      {
+        "title": "Modules as implementations of protocols",
+        "start": 28022
+      },
+      {
+        "title": "``@runtime_checkable`` decorator and narrowing types by ``isinstance()``",
+        "start": 29091
+      },
+      {
+        "title": "Using Protocols in Python 2.7 - 3.5",
+        "start": 32498
+      },
+      {
+        "title": "Runtime Implementation of Protocol Classes",
+        "start": 33414
+      },
+      {
+        "title": "Implementation details",
+        "start": 33501
+      },
+      {
+        "title": "Changes in the typing module",
+        "start": 34395
+      },
+      {
+        "title": "Introspection",
+        "start": 35600
+      },
+      {
+        "title": "Rejected/Postponed Ideas",
+        "start": 36721
+      },
+      {
+        "title": "Make every class a protocol by default",
+        "start": 36868
+      },
+      {
+        "title": "Protocols subclassing normal classes",
+        "start": 38546
+      },
+      {
+        "title": "Support optional protocol members",
+        "start": 39252
+      },
+      {
+        "title": "Allow only protocol methods and force use of getters and setters",
+        "start": 40006
+      },
+      {
+        "title": "Support non-protocol members",
+        "start": 40952
+      },
+      {
+        "title": "Make protocols interoperable with other approaches",
+        "start": 42211
+      },
+      {
+        "title": "Use assignments to check explicitly that a class implements a protocol",
+        "start": 43095
+      },
+      {
+        "title": "Support ``isinstance()`` checks by default",
+        "start": 44132
+      },
+      {
+        "title": "Provide a special intersection type construct",
+        "start": 45804
+      },
+      {
+        "title": "Prohibit explicit subclassing of protocols by non-protocols",
+        "start": 46245
+      },
+      {
+        "title": "Covariant subtyping of mutable attributes",
+        "start": 47568
+      },
+      {
+        "title": "Overriding inferred variance of protocol classes",
+        "start": 48146
+      },
+      {
+        "title": "Support adapters and adaptation",
+        "start": 49966
+      },
+      {
+        "title": "Call structural base types \"interfaces\"",
+        "start": 51227
+      },
+      {
+        "title": "Make protocols special objects at runtime rather than normal ABCs",
+        "start": 51861
+      },
+      {
+        "title": "Backwards Compatibility",
+        "start": 52648
+      },
+      {
+        "title": "Implementation",
+        "start": 52739
+      },
+      {
+        "title": "References",
+        "start": 53029
+      },
+      {
+        "title": "Copyright",
+        "start": 53985
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0557",
+    "title": "Data Classes",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0557.rst",
+    "source_url": "https://peps.python.org/pep-0557/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0557.rst",
+    "sections": [
+      {
+        "title": "Notice for Reviewers",
+        "start": 337
+      },
+      {
+        "title": "Abstract",
+        "start": 602
+      },
+      {
+        "title": "Rationale",
+        "start": 3763
+      },
+      {
+        "title": "Specification",
+        "start": 5865
+      },
+      {
+        "title": "``Field`` objects",
+        "start": 14725
+      },
+      {
+        "title": "post-init processing",
+        "start": 15355
+      },
+      {
+        "title": "Class variables",
+        "start": 16115
+      },
+      {
+        "title": "Init-only variables",
+        "start": 16609
+      },
+      {
+        "title": "Frozen instances",
+        "start": 17716
+      },
+      {
+        "title": "Inheritance",
+        "start": 18239
+      },
+      {
+        "title": "Default factory functions",
+        "start": 19207
+      },
+      {
+        "title": "Mutable default values",
+        "start": 19774
+      },
+      {
+        "title": "Module level helper functions",
+        "start": 21435
+      },
+      {
+        "title": "Discussion",
+        "start": 25675
+      },
+      {
+        "title": "python-ideas discussion",
+        "start": 25698
+      },
+      {
+        "title": "Support for automatically setting ``__slots__``?",
+        "start": 25962
+      },
+      {
+        "title": "Why not just use namedtuple?",
+        "start": 26780
+      },
+      {
+        "title": "Why not just use typing.NamedTuple?",
+        "start": 27762
+      },
+      {
+        "title": "Why not just use attrs?",
+        "start": 28134
+      },
+      {
+        "title": "post-init parameters",
+        "start": 28508
+      },
+      {
+        "title": "asdict and astuple function names",
+        "start": 30738
+      },
+      {
+        "title": "Rejected ideas",
+        "start": 31106
+      },
+      {
+        "title": "Copying ``init=False`` fields after new object creation in replace()",
+        "start": 31137
+      },
+      {
+        "title": "Automatically support mutable default values",
+        "start": 32272
+      },
+      {
+        "title": "Examples",
+        "start": 32715
+      },
+      {
+        "title": "Custom __init__ method",
+        "start": 32734
+      },
+      {
+        "title": "A complicated example",
+        "start": 33165
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 34449
+      },
+      {
+        "title": "References",
+        "start": 34856
+      },
+      {
+        "title": "Copyright",
+        "start": 36361
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0570",
+    "title": "Python Positional-Only Parameters",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0570.rst",
+    "source_url": "https://peps.python.org/pep-0570/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0570.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 474
+      },
+      {
+        "title": "Motivation",
+        "start": 1813
+      },
+      {
+        "title": "History of Positional-Only Parameter Semantics in Python",
+        "start": 1893
+      },
+      {
+        "title": "Problems Without Positional-Only Parameters",
+        "start": 4037
+      },
+      {
+        "title": "Challenges for Library Authors",
+        "start": 4329
+      },
+      {
+        "title": "Challenges for Users of an API",
+        "start": 5501
+      },
+      {
+        "title": "Benefits of Positional-Only Parameters",
+        "start": 6736
+      },
+      {
+        "title": "Empowering Library Authors",
+        "start": 7176
+      },
+      {
+        "title": "Improving Language Consistency",
+        "start": 10564
+      },
+      {
+        "title": "Rationale",
+        "start": 11776
+      },
+      {
+        "title": "Performance",
+        "start": 12382
+      },
+      {
+        "title": "Maintainability",
+        "start": 12916
+      },
+      {
+        "title": "Logical ordering",
+        "start": 14151
+      },
+      {
+        "title": "Compatibility for Pure Python and C Modules",
+        "start": 14737
+      },
+      {
+        "title": "Consistency in Subclasses",
+        "start": 16137
+      },
+      {
+        "title": "Optimizations",
+        "start": 17610
+      },
+      {
+        "title": "Specification",
+        "start": 18217
+      },
+      {
+        "title": "Syntax and Semantics",
+        "start": 18267
+      },
+      {
+        "title": "Full Grammar Specification",
+        "start": 19952
+      },
+      {
+        "title": "Semantic Corner Case",
+        "start": 21617
+      },
+      {
+        "title": "Origin of \"/\" as a Separator",
+        "start": 22438
+      },
+      {
+        "title": "How To Teach This",
+        "start": 22756
+      },
+      {
+        "title": "Positional-or-Keyword Arguments",
+        "start": 24652
+      },
+      {
+        "title": "Positional-Only Parameters",
+        "start": 24873
+      },
+      {
+        "title": "Keyword-Only Arguments",
+        "start": 25506
+      },
+      {
+        "title": "Function Examples",
+        "start": 25757
+      },
+      {
+        "title": "Recap",
+        "start": 27722
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 28185
+      },
+      {
+        "title": "Rejected Ideas",
+        "start": 28619
+      },
+      {
+        "title": "Do Nothing",
+        "start": 28661
+      },
+      {
+        "title": "Decorators",
+        "start": 28826
+      },
+      {
+        "title": "Per-Argument Marker",
+        "start": 30389
+      },
+      {
+        "title": "Using \"__\" as a Per-Argument Marker",
+        "start": 31092
+      },
+      {
+        "title": "Group Positional-Only Parameters With Parentheses",
+        "start": 32102
+      },
+      {
+        "title": "After Separator Proposal",
+        "start": 33135
+      },
+      {
+        "title": "Thanks",
+        "start": 33858
+      },
+      {
+        "title": "Copyright",
+        "start": 35588
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0572",
+    "title": "Assignment Expressions",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0572.rst",
+    "source_url": "https://peps.python.org/pep-0572/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0572.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 450
+      },
+      {
+        "title": "Rationale",
+        "start": 1156
+      },
+      {
+        "title": "The importance of real code",
+        "start": 2013
+      },
+      {
+        "title": "Syntax and semantics",
+        "start": 4608
+      },
+      {
+        "title": "Exceptional cases",
+        "start": 5524
+      },
+      {
+        "title": "Scope of the target",
+        "start": 8909
+      },
+      {
+        "title": "Relative precedence of ``:=``",
+        "start": 13945
+      },
+      {
+        "title": "Change to evaluation order",
+        "start": 15473
+      },
+      {
+        "title": "Differences between  assignment expressions and assignment statements",
+        "start": 16281
+      },
+      {
+        "title": "Specification changes during implementation",
+        "start": 17604
+      },
+      {
+        "title": "Examples",
+        "start": 18699
+      },
+      {
+        "title": "Examples from the Python standard library",
+        "start": 18718
+      },
+      {
+        "title": "site.py",
+        "start": 18803
+      },
+      {
+        "title": "_pydecimal.py",
+        "start": 19140
+      },
+      {
+        "title": "copy.py",
+        "start": 19456
+      },
+      {
+        "title": "datetime.py",
+        "start": 20337
+      },
+      {
+        "title": "sysconfig.py",
+        "start": 20872
+      },
+      {
+        "title": "Simplifying list comprehensions",
+        "start": 21780
+      },
+      {
+        "title": "Capturing condition values",
+        "start": 22282
+      },
+      {
+        "title": "Fork",
+        "start": 23501
+      },
+      {
+        "title": "Rejected alternative proposals",
+        "start": 23636
+      },
+      {
+        "title": "Changing the scope rules for comprehensions",
+        "start": 23924
+      },
+      {
+        "title": "Alternative spellings",
+        "start": 24389
+      },
+      {
+        "title": "Special-casing conditional statements",
+        "start": 27913
+      },
+      {
+        "title": "Special-casing comprehensions",
+        "start": 28826
+      },
+      {
+        "title": "Lowering operator precedence",
+        "start": 31127
+      },
+      {
+        "title": "Allowing commas to the right",
+        "start": 32278
+      },
+      {
+        "title": "Always requiring parentheses",
+        "start": 32960
+      },
+      {
+        "title": "Frequently Raised Objections",
+        "start": 33440
+      },
+      {
+        "title": "Why not just turn existing assignment into an expression?",
+        "start": 33499
+      },
+      {
+        "title": "With assignment expressions, why bother with assignment statements?",
+        "start": 34000
+      },
+      {
+        "title": "Why not use a sublocal scope and prevent namespace pollution?",
+        "start": 34369
+      },
+      {
+        "title": "Style guide recommendations",
+        "start": 35301
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 35851
+      },
+      {
+        "title": "Appendix A: Tim Peters's findings",
+        "start": 36088
+      },
+      {
+        "title": "A numeric example",
+        "start": 40556
+      },
+      {
+        "title": "Appendix B: Rough code translations for comprehensions",
+        "start": 41709
+      },
+      {
+        "title": "Appendix C: No Changes to Scope Semantics",
+        "start": 45444
+      },
+      {
+        "title": "References",
+        "start": 46539
+      },
+      {
+        "title": "Copyright",
+        "start": 46955
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0585",
+    "title": "Type Hinting Generics In Standard Collections",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0585.rst",
+    "source_url": "https://peps.python.org/pep-0585/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0585.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 478
+      },
+      {
+        "title": "Rationale and Goals",
+        "start": 976
+      },
+      {
+        "title": "Terminology",
+        "start": 1204
+      },
+      {
+        "title": "Backwards compatibility",
+        "start": 1572
+      },
+      {
+        "title": "Implementation",
+        "start": 2085
+      },
+      {
+        "title": "Parameters to generics are available at runtime",
+        "start": 4852
+      },
+      {
+        "title": "Forward compatibility",
+        "start": 7444
+      },
+      {
+        "title": "Reference implementation",
+        "start": 7553
+      },
+      {
+        "title": "Rejected alternatives",
+        "start": 7702
+      },
+      {
+        "title": "Do nothing",
+        "start": 7747
+      },
+      {
+        "title": "Generics erasure",
+        "start": 8350
+      },
+      {
+        "title": "Disallowing instantiation of parameterized types",
+        "start": 9895
+      },
+      {
+        "title": "Making ``isinstance(obj, list[str])`` perform a check ignoring generics",
+        "start": 10948
+      },
+      {
+        "title": "Making ``isinstance(obj, list[str])`` perform a runtime type check",
+        "start": 12026
+      },
+      {
+        "title": "Naming the type ``GenericType`` instead of ``GenericAlias``",
+        "start": 12507
+      },
+      {
+        "title": "Note on the initial draft",
+        "start": 12832
+      },
+      {
+        "title": "Acknowledgments",
+        "start": 13025
+      },
+      {
+        "title": "Copyright",
+        "start": 13163
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0604",
+    "title": "Allow writing union types as ``X | Y``",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0604.rst",
+    "source_url": "https://peps.python.org/pep-0604/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0604.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 445
+      },
+      {
+        "title": "Motivation",
+        "start": 639
+      },
+      {
+        "title": "Proposal",
+        "start": 1225
+      },
+      {
+        "title": "Specification",
+        "start": 1764
+      },
+      {
+        "title": "Simplified Syntax",
+        "start": 1884
+      },
+      {
+        "title": "isinstance and issubclass",
+        "start": 2907
+      },
+      {
+        "title": "Incompatible changes",
+        "start": 3438
+      },
+      {
+        "title": "Objections and responses",
+        "start": 3888
+      },
+      {
+        "title": "1. Add a new operator for ``Union[type1, type2]``?",
+        "start": 4264
+      },
+      {
+        "title": "2. Change only PEP 484 (Type hints) to accept the syntax ``type1 | type2`` ?",
+        "start": 4973
+      },
+      {
+        "title": "3. Extend ``isinstance()`` and ``issubclass()`` to accept ``Union`` ?",
+        "start": 5636
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 6019
+      },
+      {
+        "title": "References",
+        "start": 6683
+      },
+      {
+        "title": "Copyright",
+        "start": 6907
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0634",
+    "title": "Structural Pattern Matching: Specification",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0634.rst",
+    "source_url": "https://peps.python.org/pep-0634/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0634.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 500
+      },
+      {
+        "title": "Syntax and Semantics",
+        "start": 1022
+      },
+      {
+        "title": "Overview and Terminology",
+        "start": 1128
+      },
+      {
+        "title": "The Match Statement",
+        "start": 2493
+      },
+      {
+        "title": "Match Semantics",
+        "start": 3560
+      },
+      {
+        "title": "Guards",
+        "start": 5063
+      },
+      {
+        "title": "Irrefutable case blocks",
+        "start": 5783
+      },
+      {
+        "title": "Patterns",
+        "start": 6361
+      },
+      {
+        "title": "AS Patterns",
+        "start": 6798
+      },
+      {
+        "title": "OR Patterns",
+        "start": 7166
+      },
+      {
+        "title": "Literal Patterns",
+        "start": 7689
+      },
+      {
+        "title": "Capture Patterns",
+        "start": 8675
+      },
+      {
+        "title": "Wildcard Pattern",
+        "start": 9371
+      },
+      {
+        "title": "Value Patterns",
+        "start": 9500
+      },
+      {
+        "title": "Group Patterns",
+        "start": 10107
+      },
+      {
+        "title": "Sequence Patterns",
+        "start": 10531
+      },
+      {
+        "title": "Mapping Patterns",
+        "start": 13583
+      },
+      {
+        "title": "Class Patterns",
+        "start": 15685
+      },
+      {
+        "title": "Side Effects and Undefined Behavior",
+        "start": 18668
+      },
+      {
+        "title": "The Standard Library",
+        "start": 19825
+      },
+      {
+        "title": "Appendix A -- Full Grammar",
+        "start": 20552
+      },
+      {
+        "title": "Copyright",
+        "start": 23032
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0636",
+    "title": "Structural Pattern Matching: Tutorial",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0636.rst",
+    "source_url": "https://peps.python.org/pep-0636/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0636.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 436
+      },
+      {
+        "title": "Tutorial",
+        "start": 1207
+      },
+      {
+        "title": "Matching sequences",
+        "start": 1604
+      },
+      {
+        "title": "Matching multiple patterns",
+        "start": 3518
+      },
+      {
+        "title": "Matching specific values",
+        "start": 4337
+      },
+      {
+        "title": "Matching multiple values",
+        "start": 5616
+      },
+      {
+        "title": "Adding a wildcard",
+        "start": 6589
+      },
+      {
+        "title": "Composing patterns",
+        "start": 7437
+      },
+      {
+        "title": "Or patterns",
+        "start": 8631
+      },
+      {
+        "title": "Capturing matched sub-patterns",
+        "start": 9843
+      },
+      {
+        "title": "Adding conditions to patterns",
+        "start": 11411
+      },
+      {
+        "title": "Adding a UI: Matching objects",
+        "start": 12655
+      },
+      {
+        "title": "Matching positional attributes",
+        "start": 14546
+      },
+      {
+        "title": "Matching against constants and enums",
+        "start": 16175
+      },
+      {
+        "title": "Going to the cloud: Mappings",
+        "start": 17013
+      },
+      {
+        "title": "Matching builtin classes",
+        "start": 18725
+      },
+      {
+        "title": "Appendix A -- Quick Intro",
+        "start": 19959
+      },
+      {
+        "title": "Copyright",
+        "start": 25189
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0654",
+    "title": "Exception Groups and except*",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0654.rst",
+    "source_url": "https://peps.python.org/pep-0654/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0654.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 1001
+      },
+      {
+        "title": "Motivation",
+        "start": 1348
+      },
+      {
+        "title": "Rationale",
+        "start": 5296
+      },
+      {
+        "title": "Specification",
+        "start": 7539
+      },
+      {
+        "title": "ExceptionGroup and BaseExceptionGroup",
+        "start": 7568
+      },
+      {
+        "title": "Subclassing Exception Groups",
+        "start": 13873
+      },
+      {
+        "title": "The Traceback of an Exception Group",
+        "start": 16359
+      },
+      {
+        "title": "Handling Exception Groups",
+        "start": 18819
+      },
+      {
+        "title": "except*",
+        "start": 22840
+      },
+      {
+        "title": "Recursive Matching",
+        "start": 25794
+      },
+      {
+        "title": "Unmatched Exceptions",
+        "start": 26605
+      },
+      {
+        "title": "Naked Exceptions",
+        "start": 27509
+      },
+      {
+        "title": "Raising exceptions in an ``except*`` block",
+        "start": 28485
+      },
+      {
+        "title": "Chaining",
+        "start": 34493
+      },
+      {
+        "title": "Raising New Exceptions",
+        "start": 36135
+      },
+      {
+        "title": "Caught Exception Objects",
+        "start": 39925
+      },
+      {
+        "title": "Forbidden Combinations",
+        "start": 40601
+      },
+      {
+        "title": "Backwards Compatibility",
+        "start": 42024
+      },
+      {
+        "title": "How to Teach This",
+        "start": 43522
+      },
+      {
+        "title": "Reference Implementation",
+        "start": 43850
+      },
+      {
+        "title": "Rejected Ideas",
+        "start": 45085
+      },
+      {
+        "title": "Make Exception Groups Iterable",
+        "start": 45116
+      },
+      {
+        "title": "Make ``ExceptionGroup`` Extend ``BaseException``",
+        "start": 45941
+      },
+      {
+        "title": "Make it Impossible to Wrap ``BaseExceptions`` in an Exception Group",
+        "start": 47086
+      },
+      {
+        "title": "Traceback Representation",
+        "start": 47906
+      },
+      {
+        "title": "Extend ``except`` to Handle Exception Groups",
+        "start": 48573
+      },
+      {
+        "title": "A New ``except`` Alternative",
+        "start": 50854
+      },
+      {
+        "title": "Applying an ``except*`` Clause on One Exception at a Time",
+        "start": 51555
+      },
+      {
+        "title": "Not Matching Naked Exceptions in ``except*``",
+        "start": 53800
+      },
+      {
+        "title": "Allow mixing ``except:`` and ``except*:`` in the same ``try``",
+        "start": 55301
+      },
+      {
+        "title": "``try*`` instead of ``except*``",
+        "start": 55854
+      },
+      {
+        "title": "Alternative syntax options",
+        "start": 56286
+      },
+      {
+        "title": "Programming Without 'except \\*'",
+        "start": 56812
+      },
+      {
+        "title": "See Also",
+        "start": 58273
+      },
+      {
+        "title": "Acknowledgements",
+        "start": 58558
+      },
+      {
+        "title": "Acceptance",
+        "start": 59740
+      },
+      {
+        "title": "References",
+        "start": 59909
+      },
+      {
+        "title": "Copyright",
+        "start": 60843
+      }
+    ]
+  },
+  {
+    "doc_id": "PEP-0668",
+    "title": "Marking Python base environments as “externally managed”",
+    "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+    "path": "raw/pep-0668.rst",
+    "source_url": "https://peps.python.org/pep-0668/",
+    "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0668.rst",
+    "sections": [
+      {
+        "title": "Abstract",
+        "start": 740
+      },
+      {
+        "title": "Terminology",
+        "start": 2127
+      },
+      {
+        "title": "Motivation",
+        "start": 6705
+      },
+      {
+        "title": "Rationale",
+        "start": 12037
+      },
+      {
+        "title": "Use cases",
+        "start": 13428
+      },
+      {
+        "title": "Specification",
+        "start": 26592
+      },
+      {
+        "title": "Marking an interpreter as using an external package manager",
+        "start": 26621
+      },
+      {
+        "title": "Writing to only the target ``sysconfig`` scheme",
+        "start": 30636
+      },
+      {
+        "title": "Recommendations for distros",
+        "start": 31694
+      },
+      {
+        "title": "Mark the installation as externally managed",
+        "start": 31889
+      },
+      {
+        "title": "Guide users towards virtual environments",
+        "start": 32063
+      },
+      {
+        "title": "Keep the marker file in container images",
+        "start": 33337
+      },
+      {
+        "title": "Create separate distro and local directories",
+        "start": 33721
+      },
+      {
+        "title": "Backwards Compatibility",
+        "start": 38551
+      },
+      {
+        "title": "Security Implications",
+        "start": 40217
+      },
+      {
+        "title": "Alternatives",
+        "start": 42025
+      },
+      {
+        "title": "Marker file",
+        "start": 42219
+      },
+      {
+        "title": "System Python",
+        "start": 48337
+      },
+      {
+        "title": "Implementation Notes",
+        "start": 51676
+      },
+      {
+        "title": "References",
+        "start": 53861
+      },
+      {
+        "title": "Copyright",
+        "start": 55139
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "scopes": [
+    "openid",
+    "email",
+    "profile"
+  ],
+  "cookie": {
+    "secure": true,
+    "httponly": true,
+    "samesite": "lax"
+  },
+  "email_report": {
+    "enabled": false,
+    "separate_consent_required": true
+  },
+  "identity_key": [
+    "issuer",
+    "sub"
+  ],
+  "client_secret_source": "environment only, none required for this fixture"
+}

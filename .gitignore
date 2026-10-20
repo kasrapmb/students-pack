@@ -1,0 +1,5 @@
+.venv/
+.cache/
+__pycache__/
+Day3/Day3_Resources/embedding_model/
+*.log

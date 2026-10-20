@@ -1,0 +1,4 @@
+{"answer_id": "GOOD", "claims": [{"text": "Use 4 spaces per indentation level.", "citation_ids": ["C-REAL"], "quote": "Use 4 spaces per indentation level."}]}
+{"answer_id": "UNKNOWN_ID", "claims": [{"text": "Use 4 spaces.", "citation_ids": ["C-FAKE"], "quote": "Use 4 spaces."}]}
+{"answer_id": "MISSING_CITATION", "claims": [{"text": "Use 4 spaces.", "citation_ids": [], "quote": ""}]}
+{"answer_id": "BAD_QUOTE", "claims": [{"text": "Use 8 spaces.", "citation_ids": ["C-REAL"], "quote": "Use 8 spaces per indentation level."}]}

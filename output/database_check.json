@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "engine": "SQLite",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "sqlite_file_ok",
+      "passed": true
+    },
+    {
+      "name": "integrity_ok",
+      "passed": true
+    },
+    {
+      "name": "schema_users",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "schema_cases",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "schema_sessions",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "schema_messages",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "schema_documents",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "schema_chunks",
+      "passed": true,
+      "missing_columns": []
+    },
+    {
+      "name": "seed_users",
+      "passed": true,
+      "observed": 20
+    },
+    {
+      "name": "seed_cases",
+      "passed": true,
+      "observed": 120
+    },
+    {
+      "name": "seed_documents",
+      "passed": true,
+      "observed": 28
+    },
+    {
+      "name": "seed_chunks",
+      "passed": true,
+      "observed": 1286
+    },
+    {
+      "name": "no_orphan_cases",
+      "passed": true,
+      "observed": 0
+    },
+    {
+      "name": "no_orphan_chunks",
+      "passed": true,
+      "observed": 0
+    },
+    {
+      "name": "foreign_keys_declared",
+      "passed": true,
+      "missing_relations": []
+    },
+    {
+      "name": "owner_index",
+      "passed": true
+    },
+    {
+      "name": "idempotency_unique",
+      "passed": true
+    },
+    {
+      "name": "documents_unique",
+      "passed": true
+    },
+    {
+      "name": "embedding_dimensions",
+      "passed": true,
+      "wrong_or_unreadable": 0,
+      "non_finite": 0,
+      "rows": 1286
+    },
+    {
+      "name": "embedding_metadata_present",
+      "passed": true,
+      "missing": 0
+    },
+    {
+      "name": "fk_rejects_orphan_case",
+      "passed": true
+    },
+    {
+      "name": "transaction_rollback",
+      "passed": true
+    }
+  ],
+  "credentials_included": false,
+  "sqlite_version": "3.53.1"
+}

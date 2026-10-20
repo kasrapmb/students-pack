@@ -1,0 +1,24 @@
+{
+  "files": {
+    "Day3_Complete.ipynb": {
+      "sha256": "6c61cd3a3e16719db685ef4ce9f4218ff5957736a2c881c51f1172693f5b654d",
+      "bytes": 534982
+    },
+    "day3.sqlite": {
+      "sha256": "4052bd180497eb232174afe70a0c1ebdcc51b627dd8c53253b2d9373c6a06597",
+      "bytes": 5459968
+    },
+    "test_predictions.jsonl": {
+      "sha256": "a88ee76ea420fbe5b53aa91f6a16150d39b840cda183b225e94d5dc0a233f466",
+      "bytes": 2760
+    },
+    "answerability_predictions.jsonl": {
+      "sha256": "58a3f3806da824a2e16eeda3de2d57195d00b22ba03d57257d23067361fdf8f2",
+      "bytes": 2501
+    },
+    "Answers_FA.md": {
+      "sha256": "c90779fda7b9e47d30eefa7394d8e61cd19d3cdf998122e088ce8ba9f24bff65",
+      "bytes": 100087
+    }
+  }
+}

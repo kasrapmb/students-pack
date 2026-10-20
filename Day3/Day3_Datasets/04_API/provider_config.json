@@ -1,0 +1,13 @@
+{
+  "pricing_is_fictional": true,
+  "currency": "USD",
+  "unit": "per million tokens",
+  "provider_a": {
+    "input": 0.4,
+    "output": 1.2
+  },
+  "provider_b": {
+    "input": 0.1,
+    "output": 0.4
+  }
+}

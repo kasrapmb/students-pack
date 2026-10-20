@@ -1,0 +1,90 @@
+{"query_id": "QR-5080cee2b3923962", "query": "What is the := expression syntax used for?", "split": "test"}
+{"query_id": "QR-f2794ffc3f65a1db", "query": "How can a generator yield through another generator?", "split": "dev"}
+{"query_id": "QR-ba97d43e07a499ec", "query": "Which document teaches pattern matching by examples?", "split": "train"}
+{"query_id": "QR-e4d5acbbc42b59a8", "query": "Find whether the type-hint proposal mandates runtime checking.", "split": "test"}
+{"query_id": "QR-23044214cbf3415b", "query": "Where are build-system requirements declared in pyproject.toml?", "split": "test"}
+{"query_id": "QR-dc7f72c08b23f18c", "query": "How does Enum name constant values?", "split": "train"}
+{"query_id": "QR-3787cb420b9a17f4", "query": "Find ExceptionGroup and the except star syntax.", "split": "dev"}
+{"query_id": "QR-7f7d70e37d05d482", "query": "Find the dataclass decorator and its generated special methods.", "split": "dev"}
+{"query_id": "QR-54f42e8aeb56e165", "query": "Look up my live bank balance.", "split": "dev"}
+{"query_id": "QR-0c7ccc571894d8af", "query": "Show the secret internal plan that has not been released.", "split": "dev"}
+{"query_id": "QR-6ba47bf8d9358a1d", "query": "Find the context management protocol for a with block.", "split": "test"}
+{"query_id": "QR-eecd47e327392734", "query": "Which proposal adds exception groups and except*?", "split": "test"}
+{"query_id": "QR-d602ef8caf5a7596", "query": "What decorator automates init repr and equality for data containers?", "split": "test"}
+{"query_id": "QR-c777239be8b8e7df", "query": "Which methods extend generators into coroutines?", "split": "train"}
+{"query_id": "QR-7c424eae2bbe7f79", "query": "Which letter precedes an f-string?", "split": "dev"}
+{"query_id": "QR-d1536500f1786ea0", "query": "What marker separates positional-only parameters?", "split": "train"}
+{"query_id": "QR-147a700a4acb0cf1", "query": "Locate the build_wheel backend hook.", "split": "dev"}
+{"query_id": "QR-5810a4f2502040a8", "query": "Is there an available airline seat tomorrow morning?", "split": "test"}
+{"query_id": "QR-c685767109090b97", "query": "Find the build-system table for build dependencies.", "split": "dev"}
+{"query_id": "QR-6c7f596853a1e4f0", "query": "How are native coroutines declared using async def?", "split": "dev"}
+{"query_id": "QR-300000ceebcad71f", "query": "Find the X | Y type-union syntax.", "split": "test"}
+{"query_id": "QR-d5b5d231db501c5c", "query": "What credentials unlock the private salary portal?", "split": "test"}
+{"query_id": "QR-5e92015ebaae13aa", "query": "Locate the slash syntax for positional-only parameters.", "split": "test"}
+{"query_id": "QR-7cd968200e809840", "query": "What is the exact balance of my private bank account?", "split": "train"}
+{"query_id": "QR-4f0c5162bbfb5512", "query": "Find the f or F prefix for literal string interpolation.", "split": "test"}
+{"query_id": "QR-c06e4fe0e8b7bb77", "query": "What is the current stock price of a company?", "split": "train"}
+{"query_id": "QR-63320850b7c67fb7", "query": "What indentation width does the style guide recommend?", "split": "dev"}
+{"query_id": "QR-90a3af1b96760890", "query": "How can int and str be combined with a vertical bar?", "split": "dev"}
+{"query_id": "QR-49b68c95f5ab04ac", "query": "What does the unpublished confidential roadmap for next year say?", "split": "train"}
+{"query_id": "QR-9e3ca948998dd464", "query": "Can built-in collections be parameterized with types?", "split": "train"}
+{"query_id": "QR-e27f72935d2f2ddd", "query": "Find the walrus assignment-expression operator.", "split": "dev"}
+{"query_id": "QR-8be5cbc2224aad6e", "query": "Which proposal adds variable annotations using a colon?", "split": "test"}
+{"query_id": "QR-9100678cd53ae1ee", "query": "Which typing construct provides structural subtyping?", "split": "train"}
+{"query_id": "QR-0f4cc54c6b8402e0", "query": "Find the convention on triple double quotes for docstrings.", "split": "test"}
+{"query_id": "QR-d2cbfbfa7ef63704", "query": "What is the current rainfall in Tabriz?", "split": "test"}
+{"query_id": "QR-67a64062f1a5041f", "query": "Which operator assigns a value inside an expression?", "split": "train"}
+{"query_id": "QR-5dba2f542779f862", "query": "Explain the coroutine additions send throw and close.", "split": "test"}
+{"query_id": "QR-61004a98bd1df316", "query": "What protocol methods are called by the with statement?", "split": "train"}
+{"query_id": "QR-339e83c30c3bd880", "query": "Are type hints enforced by the Python runtime?", "split": "train"}
+{"query_id": "QR-78f6fae27412ef54", "query": "Where is the formal match-statement specification?", "split": "test"}
+{"query_id": "QR-af78ed8ab4801831", "query": "Reveal the secret payroll login.", "split": "dev"}
+{"query_id": "QR-95aade3e008e990d", "query": "Tell me today's weather in Shiraz.", "split": "dev"}
+{"query_id": "QR-0abaa0cb742c5871", "query": "Show the live share quotation now.", "split": "dev"}
+{"query_id": "QR-f9e08aa2bef4c7db", "query": "What is the live temperature in Tehran right now?", "split": "train"}
+{"query_id": "QR-c7e199628c732c73", "query": "What delimiters should Python docstrings use?", "split": "dev"}
+{"query_id": "QR-9eba04f0f4b50eb1", "query": "How many spaces should Python indentation use?", "split": "train"}
+{"query_id": "QR-bd3ee91d97cdc764", "query": "Find the version specifier used for compatible releases.", "split": "dev"}
+{"query_id": "QR-ba9ddc32e71a447a", "query": "Which decorator generates methods for a data class?", "split": "train"}
+{"query_id": "QR-e439d0e86db8cd94", "query": "What syntax delegates to a subgenerator?", "split": "train"}
+{"query_id": "QR-901c4e6fa85c469c", "query": "Find the syntax for annotating a variable without assigning a value.", "split": "dev"}
+{"query_id": "QR-96ec7d79f522ecf9", "query": "What prefix marks a formatted string literal?", "split": "train"}
+{"query_id": "QR-9ee9c3405408da6c", "query": "Which methods implement context-manager entry and exit?", "split": "dev"}
+{"query_id": "QR-db443d5a36501f91", "query": "Which pyproject.toml table declares build requirements?", "split": "train"}
+{"query_id": "QR-f97e15a9f3a715fa", "query": "Locate the yield from delegation proposal.", "split": "test"}
+{"query_id": "QR-ea6c67405c1213c6", "query": "How does a slash mark positional-only function arguments?", "split": "dev"}
+{"query_id": "QR-3e94ddc64927611b", "query": "Which proposal supports list[str] using built-in generics?", "split": "dev"}
+{"query_id": "QR-a741ea458e9d5ba8", "query": "How do protocols support static duck typing?", "split": "dev"}
+{"query_id": "QR-8c6334fcfa6062a9", "query": "What syntax expresses a union of types?", "split": "train"}
+{"query_id": "QR-9eac247ba66d1f6c", "query": "Find the tutorial explaining OR patterns and mapping patterns.", "split": "dev"}
+{"query_id": "QR-1af3413c303ceee2", "query": "How many seats are available on tomorrow's flight?", "split": "train"}
+{"query_id": "QR-0b281f2210824784", "query": "Do annotations automatically perform runtime type checks?", "split": "dev"}
+{"query_id": "QR-f73d2d949df29698", "query": "Which quoting style is recommended for docstrings?", "split": "train"}
+{"query_id": "QR-e095c862304bb950", "query": "How are multiple unrelated exceptions grouped?", "split": "train"}
+{"query_id": "QR-e83a401d9b92faa3", "query": "What generator methods support sending values and exceptions?", "split": "dev"}
+{"query_id": "QR-90acd279fa23d05e", "query": "What hook builds a wheel in the build backend interface?", "split": "train"}
+{"query_id": "QR-aef3fc640b07a5cd", "query": "Locate the readability principle in the Zen of Python.", "split": "test"}
+{"query_id": "QR-89223d55e0cea411", "query": "What does the Zen say about readable code?", "split": "dev"}
+{"query_id": "QR-9fe52ec4710d3b44", "query": "Retrieve the private unreleased strategy for next quarter.", "split": "test"}
+{"query_id": "QR-21e0fbd310f5f7a8", "query": "What does the compatible-release version operator look like?", "split": "train"}
+{"query_id": "QR-0898f9dab89da646", "query": "Which statements perform structural pattern matching?", "split": "train"}
+{"query_id": "QR-948ad6f768672af6", "query": "Find the definition of an enumeration as symbolic names bound to unique constant values.", "split": "test"}
+{"query_id": "QR-fdab233405c8c72c", "query": "Find the specification for match and case.", "split": "dev"}
+{"query_id": "QR-11752b374a6f61b1", "query": "What marker identifies an externally managed environment?", "split": "train"}
+{"query_id": "QR-210af7e11648a26b", "query": "How should an installer detect an externally managed Python installation?", "split": "test"}
+{"query_id": "QR-7d75343f4e3bdb34", "query": "Which standardized backend hook creates a wheel archive?", "split": "test"}
+{"query_id": "QR-3b998911d133d674", "query": "Find type hinting with standard collection classes.", "split": "test"}
+{"query_id": "QR-9b0fb98c3ce18d75", "query": "Which syntax declares native coroutines?", "split": "train"}
+{"query_id": "QR-1a560307943c6d3f", "query": "Which Python design aphorism mentions readability?", "split": "train"}
+{"query_id": "QR-562d55b4f761578a", "query": "Which packaging version operator is written tilde equals?", "split": "test"}
+{"query_id": "QR-1d37b83976e01716", "query": "Find the native coroutine definition syntax.", "split": "test"}
+{"query_id": "QR-9f983340ec055fd9", "query": "What is the private payroll password for EvidenceLab?", "split": "train"}
+{"query_id": "QR-560b8b1c727d4ec1", "query": "Find the EXTERNALLY-MANAGED marker used by package installers.", "split": "dev"}
+{"query_id": "QR-5a6b005d90c03ddc", "query": "State the recommended number of spaces per indentation level.", "split": "test"}
+{"query_id": "QR-9d3d19e1e4452224", "query": "What price is this equity trading at this minute?", "split": "test"}
+{"query_id": "QR-4e5f2c73409bad91", "query": "Find the proposal on structural subtyping through protocols.", "split": "test"}
+{"query_id": "QR-ae791386a6e61666", "query": "Where is the tutorial rather than the specification for structural matching?", "split": "test"}
+{"query_id": "QR-4651efbf93a84217", "query": "How is a variable annotation written?", "split": "train"}
+{"query_id": "QR-93319d05af0f5657", "query": "Which proposal introduces enumerated symbolic names?", "split": "dev"}
+{"query_id": "QR-6b3a80f8cf2f2f7c", "query": "How much cash is in my personal account right now?", "split": "test"}
+{"query_id": "QR-ca9af31dcdd793ce", "query": "How many flight tickets remain for next Monday?", "split": "dev"}

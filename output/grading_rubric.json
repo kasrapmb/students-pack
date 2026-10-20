@@ -1,0 +1,10 @@
+{
+  "schema_seed": "Independently inspect the uploaded SQLite bytes using the supplied checker, including FK and rollback probes.",
+  "independent_tests": "Recompute counts, validate prediction schema and notebook outputs; never trust student JSON alone.",
+  "states": {
+    "passed": "Independent assertions agree with executed evidence.",
+    "failed": "An executed check contradicts the required contract; deduct the associated requirement.",
+    "error": "Infrastructure or unreadable artifact prevents evaluation; diagnose and rerun rather than assigning a model-quality failure."
+  },
+  "analysis_review": "Read Persian analyses for provenance, train/dev/test discipline, limitations and consistency with outputs."
+}

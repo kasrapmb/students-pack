@@ -1,0 +1,33 @@
+{
+  "split": "dev",
+  "metric_unit": "distinct document; fractions in [0,1]",
+  "results": {
+    "lexical": {
+      "recall": 0.9583333333333334,
+      "mrr": 0.8958333333333334,
+      "ndcg": 0.9121995525297656
+    },
+    "dense": {
+      "recall": 0.9583333333333334,
+      "mrr": 0.8888888888888888,
+      "ndcg": 0.9067441461309548
+    },
+    "hybrid": {
+      "recall": 1.0,
+      "mrr": 0.9305555555555557,
+      "ndcg": 0.9484108127976215
+    }
+  },
+  "config_hash": "6d663f1dd0d7e9929f456d4766213bba9bf17491a186f7c4eaf4eb0487110ef5",
+  "bootstrap_95": [
+    1.0,
+    1.0
+  ],
+  "limitations": [
+    "Small English PEP corpus does not establish Persian retrieval quality.",
+    "Synthetic and semantically related queries do not establish independent real-user performance.",
+    "Document relevance does not establish passage entailment or generated-answer factuality.",
+    "Warm local retrieval latency is not production end-to-end latency."
+  ],
+  "test_gold_used": false
+}

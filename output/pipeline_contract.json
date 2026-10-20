@@ -1,0 +1,36 @@
+{
+  "engine": "SQLite",
+  "fail_fast": true,
+  "steps": [
+    {
+      "name": "dependencies",
+      "command": "python -m pip install -r Day3/requirements-day3.txt"
+    },
+    {
+      "name": "prepare",
+      "command": "python download_model.py"
+    },
+    {
+      "name": "migration_seed",
+      "command": "python -c \"from core import migrate_seed; migrate_seed()\""
+    },
+    {
+      "name": "tests",
+      "command": "python run_assignment.py --require-complete"
+    },
+    {
+      "name": "health",
+      "command": "TestClient GET /health must return 200 and engine SQLite"
+    },
+    {
+      "name": "failure_stop",
+      "command": "Stop on nonzero exit; do not release"
+    },
+    {
+      "name": "rollback",
+      "command": "Restore a verified pre-migration SQLite backup and the previous application artifact; run health and FK checks"
+    }
+  ],
+  "secrets": "read only from environment if real providers are later enabled; none required for fixtures",
+  "live_deployment": false
+}

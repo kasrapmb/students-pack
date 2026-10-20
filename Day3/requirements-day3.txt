@@ -1,0 +1,19 @@
+# Tested with Python 3.13 on Windows; CPU execution is supported.
+numpy==2.4.2
+pandas==3.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+torch==2.13.0
+matplotlib==3.10.8
+sentence-transformers==6.1.0
+transformers==5.19.0
+fastapi==0.143.1
+httpx==0.28.1
+uvicorn==0.54.0
+langgraph==1.2.15
+pydantic==2.14.1
+PyJWT==2.10.1
+pypdf==6.15.0
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1

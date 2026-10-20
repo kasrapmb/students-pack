@@ -1,0 +1,11 @@
+{
+  "notebook_questions": 144,
+  "executed_code_cells": 145,
+  "notebook_error_outputs": 0,
+  "database_passed": 22,
+  "database_checks": 22,
+  "retrieval_test_predictions": 30,
+  "answerability_test_predictions": 30,
+  "hidden_retrieval_test_gold_used": false,
+  "submission_uploaded": false
+}

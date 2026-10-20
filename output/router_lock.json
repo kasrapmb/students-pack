@@ -1,0 +1,12 @@
+{
+  "C": 0.1,
+  "best_epoch": 3,
+  "dev_macro_F1": 0.7971602434077079,
+  "classes": [
+    "both",
+    "history",
+    "research",
+    "unsupported"
+  ],
+  "seed": 20261015
+}

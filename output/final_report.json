@@ -1,0 +1,32 @@
+{
+  "actually_executed": [
+    "FastAPI TestClient and HTTPX MockTransport",
+    "SQLite migrations, idempotent seed, ownership, FK, rollback and official checker",
+    "Pinned local embedding, lexical/dense/RRF retrieval and train/dev evaluation",
+    "PyTorch neural router training and held-out comparison",
+    "Real LangGraph invocation and extractive citation validation"
+  ],
+  "fixtures": [
+    "users and case data",
+    "provider responses and fictional prices",
+    "signed identity tokens",
+    "30 untrusted attack payloads",
+    "synthetic latency events"
+  ],
+  "not_executed": [
+    "live Google OIDC",
+    "paid or live LLM calls",
+    "PostgreSQL or production vector DB",
+    "public deployment",
+    "live Gmail integration",
+    "hidden-gold retrieval test scoring"
+  ],
+  "priorities": [
+    "Replace fixture identity with validated OIDC and enforce tenant policy across every store.",
+    "Evaluate with representative real data and independent semantic families, including Persian if required.",
+    "Add semantic citation validation and live-model adversarial evaluation under limited tool authority.",
+    "Establish SLOs, real traces, load tests and per-request deadlines.",
+    "Implement reviewed releases, migration backups, restore drills, consent and secret rotation."
+  ],
+  "claim_limit": "Passing a small synthetic extractive POC does not establish production readiness or safety of a live autonomous LLM."
+}

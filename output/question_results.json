@@ -1,0 +1,1554 @@
+{
+  "1.1": {
+    "selected_option": "POC",
+    "reason_fa": "هدف صرفاً اثبات امکان فنی بازیابی روی ۲۴ سند است؛ نبود کاربر واقعی و جریان ارزش، شواهد MVP یا آمادگی محصول را فراهم نمی‌کند."
+  },
+  "1.2": {
+    "selected_option": "Prototype",
+    "reason_fa": "پاسخ از پیش نوشته شده برای آزمودن تعامل انتخاب پرونده و بازکردن منبع کافی است؛ این آزمایش تجربهٔ کاربری است و کارکرد واقعی بازیابی را اثبات نمی‌کند."
+  },
+  "1.3": {
+    "selected_option": "MVP",
+    "reason_fa": "گروهی واقعی از مسیر کامل با هویت و ذخیرهٔ پایدار استفاده می‌کند و بازخورد می‌دهد؛ این حداقل جریان ارزش واقعی است، بدون تضمین بلوغ کامل تولید."
+  },
+  "1.4": {
+    "selected_option": "Backend و لایهٔ مجوز",
+    "reason_fa": "مجوز باید پیش از واکشی و در مرزی مورد اعتماد بررسی شود؛ رابط کاربری و متن مدل قابل دورزدن‌اند و embedding اختیار دسترسی ایجاد نمی‌کند."
+  },
+  "1.5": {
+    "selected_option": "مدل",
+    "reason_fa": "تبدیل متن به بردار یک تابع استنتاج مدل است. بدون انتخاب ابزار، حافظه و حلقهٔ تصمیم، نام Agent برای آن دقیق نیست."
+  },
+  "1.6": {
+    "selected_option": "Agent یا orchestration",
+    "reason_fa": "انتخاب ابزار، سنجش نتیجه و تکرار جستجو مدیریت گردش کار است؛ مدل می‌تواند جزئی از آن باشد ولی به‌تنهایی کل این لایه نیست."
+  },
+  "1.7": {
+    "selected_option": "بهبود UX و درک انتظار",
+    "reason_fa": "نمایش پیشرفت و لغو، انتظار و کنترل کاربر را بهتر می‌کند؛ بازکردن منبع امکان بررسی پاسخ را می‌دهد و جای احراز هویت را نمی‌گیرد."
+  },
+  "1.8": {
+    "selected_option": "RDBMS",
+    "reason_fa": "رابطهٔ کاربر، جلسه و پیام به کلید خارجی، Join و تراکنش نیاز دارد؛ پایگاه رابطه‌ای این قیود و اتمی‌بودن عملیات را پشتیبانی می‌کند."
+  },
+  "1.9": {
+    "selected_option": "Trace با correlation ID و زمان هر گام",
+    "reason_fa": "شناسهٔ مشترک رویدادهای همان درخواست را متصل می‌کند و زمان مرحله‌ها گلوگاه را مشخص می‌کند؛ میانگین روزانه علت تأخیر یک درخواست را پنهان می‌کند."
+  },
+  "1.10": {
+    "selected_option": "Agile با چرخه‌های کوتاه",
+    "reason_fa": "چرخهٔ کوتاه، تحویل قابل استفاده و بازخورد زودهنگام را با بودجهٔ محدود ممکن می‌کند؛ هر چرخه همچنان به معیار پذیرش و ارزیابی نیاز دارد."
+  },
+  "1.11": {
+    "selected_option": "کیفیت و هزینه و تأخیر روی مجموعهٔ ارزیابی خود پروژه",
+    "reason_fa": "تصمیم باید روی توزیع درخواست و بودجهٔ همین کاربرد سنجیده شود؛ رتبهٔ عمومی یا تعداد پارامتر به‌تنهایی نمایندهٔ کیفیت کاربرد نیست."
+  },
+  "1.12": {
+    "selected_option": "مالکیت داده و پایش و بازیابی پس از خطا",
+    "reason_fa": "محصول باید نشت داده را جلوگیری و خرابی را تشخیص و بازیابی کند؛ موفقیت یک دمو، قابلیت اتکا و امنیت چندکاربره را اثبات نمی‌کند."
+  },
+  "2.1": {
+    "selected_option": "GET",
+    "reason_fa": "خواندن پرونده بدون تغییر حالت با معنای safe و idempotent روش GET سازگار است؛ دسترسی همچنان باید در backend کنترل شود."
+  },
+  "2.2": {
+    "selected_option": "POST",
+    "reason_fa": "ساخت یک جلسهٔ جدید با بدنهٔ JSON عملیات ایجاد منبع است؛ برای تکرار امن می‌توان کلید idempotency اضافه کرد."
+  },
+  "2.3": {
+    "selected_option": "401",
+    "reason_fa": "هویت معتبر هنوز احراز نشده است؛ این با 403 برای هویت شناخته‌شدهٔ فاقد مجوز تفاوت دارد."
+  },
+  "2.4": {
+    "selected_option": "403",
+    "reason_fa": "کاربر احراز هویت شده اما برای این منبع اختیار ندارد. در این قرارداد 403 تفاوت نبود مجوز را از نبود هویت نشان می‌دهد."
+  },
+  "2.5": {
+    "selected_option": "422",
+    "reason_fa": "top_k از طرح ورودی تخطی کرده است؛ قرارداد این تمرین خطای اعتبارسنجی را 422 تعریف می‌کند و retry بدون اصلاح ورودی مفید نیست."
+  },
+  "2.6": {
+    "selected_option": "retry محدود با رعایت Retry-After و deadline",
+    "reason_fa": "429 محدودیت نرخ است؛ انتظار اعلام‌شده باید رعایت شود، ولی سقف تلاش و بودجهٔ کل از انتظار بی‌نهایت جلوگیری می‌کنند."
+  },
+  "2.7": {
+    "selected_option": "Idempotency-Key پایدار برای همان عملیات",
+    "reason_fa": "قطع پاسخ نتیجهٔ ثبت را نامعلوم می‌کند؛ کلید پایدار اجازه می‌دهد backend همان عملیات را تشخیص دهد و منبع دوم نسازد."
+  },
+  "2.8": {
+    "selected_option": "409 با توضیح تعارض",
+    "reason_fa": "کلید قبلی نمایندهٔ همان بدنه است؛ استفاده با بدنهٔ متفاوت تعارض معنایی دارد و نباید پاسخ موفق قبلی را به عملیات جدید نسبت داد."
+  },
+  "2.9": {
+    "selected_option": "pagination با حد بالا و ترتیب پایدار",
+    "reason_fa": "حد بالای صفحه مصرف حافظه و پاسخ را محدود می‌کند و ترتیب پایدار مانع جابه‌جایی بی‌قاعدهٔ رکوردها میان صفحه‌ها می‌شود؛ برای تغییر همزمان داده، cursor یا snapshot بهتر است."
+  },
+  "2.10": {
+    "selected_option": "توقف و گزارش خطای پیکربندی",
+    "reason_fa": "کلید اشتباه با تکرار همان درخواست درست نمی‌شود؛ باید پیکربندی امن اصلاح شود و کلید در گزارش خطا افشا نشود."
+  },
+  "2.11": {
+    "selected_option": "Backend و secret محیطی",
+    "reason_fa": "کلید باید در مرز سرور و مدیریت راز مصرف شود؛ URL عمومی و JavaScript مرورگر قابلیت محرمانه‌ماندن ندارند."
+  },
+  "2.12": {
+    "selected_option": "انتقال HTTP موفق ولی خروجی معنایی نامعتبر",
+    "reason_fa": "200 فقط موفقیت قرارداد انتقال را نشان می‌دهد؛ استناد ناموجود نقض قرارداد محتوایی است و باید جدا اعتبارسنجی شود."
+  },
+  "3.1": {
+    "selected_option": "sub همراه issuer",
+    "reason_fa": "sub در قلمرو صادرکننده هویت پایدار می‌دهد؛ ایمیل یا نام نمایشی می‌توانند تغییر کنند و برای اتصال حساب به‌تنهایی کافی نیستند."
+  },
+  "3.2": {
+    "selected_option": "signature و issuer و audience و expiry",
+    "reason_fa": "امضا اصالت، issuer منشأ، audience مخاطب و expiry تازگی را کنترل می‌کنند؛ decode بدون این بررسی‌ها اعتبار توکن را اثبات نمی‌کند."
+  },
+  "3.3": {
+    "selected_option": "openid email profile",
+    "reason_fa": "این scopeها برای ورود پایه کافی‌اند؛ دسترسی Gmail یا Drive برای هویت لازم نیست و باید تنها با نیاز و رضایت جدا درخواست شود."
+  },
+  "3.4": {
+    "selected_option": "ارسال نشود و برنامه عادی کار کند",
+    "reason_fa": "گزارش ایمیلی قابلیت اختیاری است و فقدان رضایت به معنای منع ارسال است؛ ورود پایه نباید وابسته به دسترسی صندوق ایمیل شود."
+  },
+  "3.5": {
+    "selected_option": "دادهٔ غیرقابل اعتماد",
+    "reason_fa": "متن بازیابی‌شده مجوز یا دستور سیستم نیست؛ تصمیم دسترسی از هویت معتبر و سیاست backend می‌آید و سند نمی‌تواند آن را ارتقا دهد."
+  },
+  "3.6": {
+    "selected_option": "پیش از انتخاب نتایج و ساخت context",
+    "reason_fa": "فیلتر پس از ارسال context دیر است و اطلاعات قبلاً افشا شده؛ حتی top-k باید در مجموعهٔ مجاز محاسبه شود تا رتبه‌بندی نیز مرز را رعایت کند."
+  },
+  "3.7": {
+    "selected_option": "پاسخ tenant یا نسخهٔ دیگر ممکن است بازگردد",
+    "reason_fa": "cache باید هویت، tenant، مجوز و نسخه‌های مدل و corpus را تفکیک کند؛ برابری متن پرسش به معنای برابری پاسخ مجاز نیست."
+  },
+  "3.8": {
+    "selected_option": "نوع رویداد و correlation ID و metadata حداقلی پاک‌سازی‌شده",
+    "reason_fa": "این داده برای پیگیری عملیات مفید است و از انباشت توکن‌ها و پرونده‌های خصوصی در لاگ جلوگیری می‌کند؛ نگهداری و دسترسی لاگ هم باید محدود باشد."
+  },
+  "3.9": {
+    "selected_option": "بررسی مالکیت هر بار در backend",
+    "reason_fa": "شناسهٔ غیرقابل حدس فقط دفاع کمکی است؛ هر درخواست مستقیم باید رابطهٔ کاربر و منبع را بررسی کند تا IDOR رخ ندهد."
+  },
+  "3.10": {
+    "selected_option": "HttpOnly و Secure و سیاست SameSite متناسب",
+    "reason_fa": "HttpOnly دسترسی اسکریپت، Secure انتقال بدون TLS و SameSite ارسال بین‌سایتی کوکی را محدود می‌کند؛ سیاست باید با جریان ورود و دفاع CSRF هماهنگ شود."
+  },
+  "3.11": {
+    "selected_option": "منشأ و نقششان جدا نمایش داده شود",
+    "reason_fa": "پروندهٔ مصنوعی زمینهٔ خصوصی کاربر است و سند پژوهشی منشأ ادعای عمومی؛ مخلوط‌کردن نقش‌ها به استناد علمی کاذب و نشت اطلاعات می‌انجامد."
+  },
+  "3.12": {
+    "selected_option": "migration نسخه‌دار و آزمون بازیابی/rollback متناسب",
+    "reason_fa": "تغییر schema باید سابقه و مسیر آزمودهٔ بازیابی داشته باشد؛ بعضی migrationها به restore یا forward fix نیاز دارند و برگشت ساده همیشه ممکن نیست."
+  },
+  "4.1": {
+    "selected_option": "RAG با کنترل دسترسی",
+    "reason_fa": "دانش خصوصی باید از منبع مجاز و به‌روز بازیابی شود؛ حافظهٔ مدل چنین دانشی را تضمین نمی‌کند و کنترل دسترسی پیش از context ضروری است."
+  },
+  "4.2": {
+    "selected_option": "ابزار یا API معتبر سامانهٔ موجودی",
+    "reason_fa": "موجودی زنده به منبع عملیاتی تازه نیاز دارد؛ متن تاریخی یا حافظهٔ مدل وضعیت لحظه‌ای را تضمین نمی‌کنند."
+  },
+  "4.3": {
+    "selected_option": "مهندسی prompt یا fine-tuning با ارزیابی",
+    "reason_fa": "قالب و لحن رفتار پاسخ‌اند؛ ابتدا prompt و schema قابل آزمون و در صورت نیاز fine-tuning بررسی می‌شوند، بدون فرض افزایش دانش تازه."
+  },
+  "4.4": {
+    "selected_option": "برابری بعد کافی نیست؛ فضای embedding و نسخه باید سازگار باشد",
+    "reason_fa": "مختصات دو مدل هم‌بعد ممکن است معناهای متفاوتی داشته باشند؛ نام، revision و روش pooling/normalization باید با ایندکس تطابق داشته باشند."
+  },
+  "4.5": {
+    "selected_option": "truncation خاموش و حذف بخش مهم شاهد",
+    "reason_fa": "مدل فقط پنجرهٔ محدود را می‌بیند؛ بخش انتهایی chunk بلند ممکن است در بردار بازنمایی نشود، حتی اگر متن کامل بعداً نمایش داده شود."
+  },
+  "4.6": {
+    "selected_option": "متریک پاسخ‌پذیرها و abstention خارج از پوشش را جدا گزارش کرد",
+    "reason_fa": "Recall با مجموعهٔ gold خالی مخرج صفر دارد؛ کیفیت بازیابی روی پاسخ‌پذیرها و false accept/reject روی بی‌شاهدها اهداف متفاوت‌اند."
+  },
+  "4.7": {
+    "selected_option": "رتبه‌بندی یکتای اسناد و متریک سندی را صریح تعریف کنیم",
+    "reason_fa": "چند passage از یک سند نباید چند hit مستقل بسازند؛ سنجش passage نیز به برچسب بازهٔ شاهد نیاز دارد و با gold سندی یکسان نیست."
+  },
+  "4.8": {
+    "selected_option": "Reciprocal Rank Fusion",
+    "reason_fa": "RRF رتبه‌ها را ترکیب می‌کند و به هم‌مقیاس‌بودن cosine و TF-IDF نیاز ندارد؛ ثابت و سطح ترکیب باید از پیش مشخص باشد."
+  },
+  "4.9": {
+    "selected_option": "روی dev و سپس قفل شود",
+    "reason_fa": "test برای تخمین نهایی تعمیم است؛ انتخاب آستانه با برچسب یا خطاهای test باعث نشت ارزیابی می‌شود."
+  },
+  "4.10": {
+    "selected_option": "خیر؛ پشتیبانی معنایی ادعا بررسی جدا می‌خواهد",
+    "reason_fa": "وجود ID و quote فقط ساختار و منشأ را اثبات می‌کند؛ ممکن است ادعا خلاف همان نقل‌قول باشد و به بررسی entailment نیاز دارد."
+  },
+  "4.11": {
+    "selected_option": "نمایش تعارض و اعمال سیاست نسخه/اعتبار و دسترسی",
+    "reason_fa": "نسخهٔ آرشیوی نباید پنهانی با نسخهٔ معتبر ترکیب شود؛ منشأ و قواعد تقدم باید قابل بررسی باشند و نباید تاریخ اختراع کرد."
+  },
+  "4.12": {
+    "selected_option": "فقط کنترل‌های همین مسیر و همین fixtureها آزموده شده‌اند",
+    "reason_fa": "مولد استخراجی فاقد اختیار ابزار و راز است؛ عبور fixtureها شاهدی محدود برای همین مرز اجرایی است و نرخ مقاومت یک LLM زنده محسوب نمی‌شود."
+  },
+  "5.1": {
+    "requests": 2400,
+    "duplicate_ids": 0,
+    "http_error_rate": 0.58625,
+    "synthetic": true
+  },
+  "5.2": {
+    "retryable": 599,
+    "request_correction": 808,
+    "counts": {
+      "200": 993,
+      "400": 221,
+      "401": 204,
+      "403": 196,
+      "422": 187,
+      "429": 202,
+      "500": 202,
+      "503": 195
+    }
+  },
+  "5.3": {
+    "rejected_of_three": 3,
+    "additional_invalid_method_and_length_rejected": true
+  },
+  "5.4": {
+    "collected": 7,
+    "unique": 7,
+    "case_ids": [
+      "C-001",
+      "C-020",
+      "C-039",
+      "C-058",
+      "C-077",
+      "C-096",
+      "C-115"
+    ]
+  },
+  "5.5": {
+    "statuses": {
+      "missing_identity": 401,
+      "wrong_owner": 403,
+      "missing_id": 404,
+      "invalid_pagination": 422
+    }
+  },
+  "5.6": {
+    "successful": 3,
+    "attempts_401": 1,
+    "scenarios": {
+      "success": {
+        "success": true,
+        "attempts": 1,
+        "waits": [],
+        "status": 200
+      },
+      "rate_limit": {
+        "success": true,
+        "attempts": 2,
+        "waits": [
+          2.0
+        ],
+        "status": 200
+      },
+      "transient": {
+        "success": true,
+        "attempts": 3,
+        "waits": [
+          1.0,
+          2.0
+        ],
+        "status": 200
+      },
+      "unauthorized": {
+        "success": false,
+        "attempts": 1,
+        "waits": [],
+        "status": 401
+      },
+      "invalid_input": {
+        "success": false,
+        "attempts": 1,
+        "waits": [],
+        "status": 422
+      },
+      "exhausted": {
+        "success": false,
+        "attempts": 3,
+        "waits": [
+          1.0,
+          2.0
+        ],
+        "status": 503
+      }
+    }
+  },
+  "5.7": {
+    "same_session": true,
+    "conflict": 409
+  },
+  "5.8": {
+    "attempts": 3,
+    "total_backoff_seconds": 3.0,
+    "waits": [
+      1.0,
+      2.0
+    ]
+  },
+  "5.9": {
+    "handled": true,
+    "envelope": {
+      "code": "READ_TIMEOUT",
+      "message": "Provider response exceeded the read timeout",
+      "success": false
+    }
+  },
+  "5.10": {
+    "total_USD": 0.8331182,
+    "per_provider": {
+      "provider_a": {
+        "input_cost": 0.3695308,
+        "output_cost": 0.2757024,
+        "total_cost": 0.6452332000000001
+      },
+      "provider_b": {
+        "input_cost": 0.093795,
+        "output_cost": 0.09409000000000001,
+        "total_cost": 0.187885
+      }
+    },
+    "pricing": "fictional USD per million tokens; all logged rows counted, not proof of provider billing"
+  },
+  "5.11": {
+    "configurations": 2,
+    "live_LLM_calls": 0,
+    "contracts": [
+      {
+        "host": "provider-a.invalid",
+        "path": "/v1/answers",
+        "model": "model-a"
+      },
+      {
+        "host": "provider-b.invalid",
+        "path": "/v1/answers",
+        "model": "model-b"
+      }
+    ]
+  },
+  "5.12": {
+    "envelope_tests": 2,
+    "statuses": [
+      401,
+      422
+    ]
+  },
+  "6.1": {
+    "connected": true,
+    "sqlite_version": "3.53.1",
+    "timeout_seconds": 3,
+    "foreign_keys": true
+  },
+  "6.2": {
+    "users": 20,
+    "cases": 120,
+    "idempotent_seed": true,
+    "schema": "\nCREATE TABLE IF NOT EXISTS users(user_id TEXT PRIMARY KEY,role TEXT NOT NULL,tenant TEXT NOT NULL);\nCREATE TABLE IF NOT EXISTS cases(case_id TEXT PRIMARY KEY,owner_id TEXT NOT NULL REFERENCES users(user_id),topic TEXT NOT NULL,summary TEXT NOT NULL);\nCREATE INDEX IF NOT EXISTS idx_cases_owner ON cases(owner_id);\nCREATE TABLE IF NOT EXISTS sessions(session_id TEXT PRIMARY KEY,owner_id TEXT NOT NULL REFERENCES users(user_id),case_id TEXT NOT NULL REFERENCES cases(case_id),idempotency_key TEXT NOT NULL UNIQUE);\nCREATE TABLE IF NOT EXISTS messages(message_id TEXT PRIMARY KEY,session_id TEXT NOT NULL REFERENCES sessions(session_id),content TEXT NOT NULL);\nCREATE TABLE IF NOT EXISTS documents(doc_id TEXT PRIMARY KEY,version TEXT NOT NULL,content_hash TEXT NOT NULL,title TEXT,source_url TEXT,access TEXT,tenant TEXT,archived INTEGER DEFAULT 0);\nCREATE TABLE IF NOT EXISTS chunks(chunk_id TEXT PRIMARY KEY,doc_id TEXT NOT NULL REFERENCES documents(doc_id),content TEXT NOT NULL,embedding BLOB,model_id TEXT,model_revision TEXT,start INTEGER,end INTEGER,section TEXT,content_hash TEXT);\n"
+  },
+  "6.3": {
+    "orphan_rejected": true,
+    "connection_usable": true
+  },
+  "6.4": {
+    "before": 2,
+    "after": 2,
+    "atomic_rollback": true
+  },
+  "6.5": {
+    "matched_rows": 0,
+    "users_after": 20
+  },
+  "6.6": {
+    "access": {
+      "U-002": true,
+      "U-003": false,
+      "U-000": true
+    },
+    "engine": "SQLite"
+  },
+  "6.7": {
+    "owner_index": true,
+    "explain": [
+      [
+        3,
+        0,
+        62,
+        "SEARCH cases USING INDEX idx_cases_owner (owner_id=?)"
+      ]
+    ]
+  },
+  "6.9": {
+    "required_invalid_issuer_and_expiry_rejected": 2,
+    "all_invalid_tokens_rejected": 4,
+    "live_Google_login": false
+  },
+  "6.10": {
+    "scopes": [
+      "openid",
+      "email",
+      "profile"
+    ],
+    "cookie": {
+      "secure": true,
+      "httponly": true,
+      "samesite": "lax"
+    },
+    "email_report": {
+      "enabled": false,
+      "separate_consent_required": true
+    },
+    "identity_key": [
+      "issuer",
+      "sub"
+    ],
+    "client_secret_source": "environment only, none required for this fixture"
+  },
+  "6.11": {
+    "remaining_test_secrets": 0,
+    "events_checked": 4801
+  },
+  "7.1": {
+    "real_documents": 24,
+    "valid_hashes": 24,
+    "corpus_version": "b80c7bf8d5a89fc47b732504a9e1219b79677531"
+  },
+  "7.2": {
+    "pdf_count": 2,
+    "flagged": 1,
+    "reports": [
+      {
+        "file": "evidencelab_policy.pdf",
+        "pages": 2,
+        "characters_per_page": [
+          413,
+          389
+        ],
+        "needs_OCR_or_review": false
+      },
+      {
+        "file": "scan_only_fixture.pdf",
+        "pages": 1,
+        "characters_per_page": [
+          0
+        ],
+        "needs_OCR_or_review": true
+      }
+    ]
+  },
+  "7.3": {
+    "metadata_records": 24,
+    "sample": {
+      "doc_id": "PEP-0008",
+      "title": "Style Guide for Python Code",
+      "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+      "path": "raw/pep-0008.rst",
+      "source_url": "https://peps.python.org/pep-0008/",
+      "snapshot_url": "https://raw.githubusercontent.com/python/peps/b80c7bf8d5a89fc47b732504a9e1219b79677531/peps/pep-0008.rst",
+      "sections": [
+        {
+          "title": "Introduction",
+          "start": 263
+        },
+        {
+          "title": "A Foolish Consistency is the Hobgoblin of Little Minds",
+          "start": 1019
+        },
+        {
+          "title": "Code Lay-out",
+          "start": 2571
+        },
+        {
+          "title": "Indentation",
+          "start": 2598
+        },
+        {
+          "title": "Tabs or Spaces?",
+          "start": 6194
+        },
+        {
+          "title": "Maximum Line Length",
+          "start": 6427
+        },
+        {
+          "title": "Should a Line Break Before or After a Binary Operator?",
+          "start": 8588
+        },
+        {
+          "title": "Blank Lines",
+          "start": 10185
+        },
+        {
+          "title": "Source File Encoding",
+          "start": 10950
+        },
+        {
+          "title": "Imports",
+          "start": 11686
+        },
+        {
+          "title": "Module Level Dunder Names",
+          "start": 14284
+        },
+        {
+          "title": "String Quotes",
+          "start": 14960
+        },
+        {
+          "title": "Whitespace in Expressions and Statements",
+          "start": 15417
+        },
+        {
+          "title": "Pet Peeves",
+          "start": 15500
+        },
+        {
+          "title": "Other Recommendations",
+          "start": 17839
+        },
+        {
+          "title": "When to Use Trailing Commas",
+          "start": 21397
+        },
+        {
+          "title": "Comments",
+          "start": 22571
+        },
+        {
+          "title": "Block Comments",
+          "start": 23483
+        },
+        {
+          "title": "Inline Comments",
+          "start": 23840
+        },
+        {
+          "title": "Documentation Strings",
+          "start": 24392
+        },
+        {
+          "title": "Naming Conventions",
+          "start": 25242
+        },
+        {
+          "title": "Overriding Principle",
+          "start": 25649
+        },
+        {
+          "title": "Descriptive: Naming Styles",
+          "start": 25828
+        },
+        {
+          "title": "Prescriptive: Naming Conventions",
+          "start": 28283
+        },
+        {
+          "title": "Names to Avoid",
+          "start": 28350
+        },
+        {
+          "title": "ASCII Compatibility",
+          "start": 28657
+        },
+        {
+          "title": "Package and Module Names",
+          "start": 28851
+        },
+        {
+          "title": "Class Names",
+          "start": 29343
+        },
+        {
+          "title": "Type Variable Names",
+          "start": 29768
+        },
+        {
+          "title": "Exception Names",
+          "start": 30248
+        },
+        {
+          "title": "Global Variable Names",
+          "start": 30471
+        },
+        {
+          "title": "Function and Variable Names",
+          "start": 30932
+        },
+        {
+          "title": "Function and Method Arguments",
+          "start": 31298
+        },
+        {
+          "title": "Method Names and Instance Variables",
+          "start": 31772
+        },
+        {
+          "title": "Constants",
+          "start": 32560
+        },
+        {
+          "title": "Designing for Inheritance",
+          "start": 32750
+        },
+        {
+          "title": "Public and Internal Interfaces",
+          "start": 36131
+        },
+        {
+          "title": "Programming Recommendations",
+          "start": 37475
+        },
+        {
+          "title": "Function Annotations",
+          "start": 47057
+        },
+        {
+          "title": "Variable Annotations",
+          "start": 48987
+        },
+        {
+          "title": "References",
+          "start": 50424
+        },
+        {
+          "title": "Copyright",
+          "start": 50709
+        }
+      ]
+    }
+  },
+  "7.4": {
+    "chunks": 1282,
+    "max_tokens": 220,
+    "min_tokens": 43,
+    "median_tokens": 220.0,
+    "overlap": 40
+  },
+  "7.5": {
+    "provenance_errors": 0,
+    "sample": {
+      "chunk_id": "44679263c8d354d7b2f3e0b5ffed16250252ad49d671cf590f9ad14a417128d2",
+      "doc_id": "PEP-0008",
+      "version": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+      "start": 0,
+      "end": 953,
+      "section": "Style Guide for Python Code",
+      "content_hash": "5cdcd951ca7d866c6493b68cece9d169145efe280efe12e5d0f3b084336a2eb8",
+      "source_url": "https://peps.python.org/pep-0008/",
+      "path": "raw/pep-0008.rst"
+    }
+  },
+  "7.6": {
+    "stable_ids": true,
+    "compared": 1282
+  },
+  "7.7": {
+    "shared_ids": 0,
+    "original_unchanged": true
+  },
+  "7.8": {
+    "removed_duplicates": 3
+  },
+  "7.9": {
+    "variants": {
+      "110": {
+        "chunks": 3282,
+        "truncation_risk": 0
+      },
+      "220": {
+        "chunks": 1282,
+        "truncation_risk": 0
+      },
+      "440": {
+        "chunks": 583,
+        "truncation_risk": 572
+      }
+    },
+    "risky_440": 572
+  },
+  "7.10": {
+    "policy_chunks": 4,
+    "metadata": [
+      {
+        "doc_id": "LAB-PUBLIC",
+        "version": "2026-01",
+        "access": "public",
+        "tenant": "all",
+        "archived": false
+      },
+      {
+        "doc_id": "LAB-T0",
+        "version": "2026-01",
+        "access": "internal",
+        "tenant": "T-0",
+        "archived": false
+      },
+      {
+        "doc_id": "LAB-T1",
+        "version": "2026-01",
+        "access": "internal",
+        "tenant": "T-1",
+        "archived": false
+      },
+      {
+        "doc_id": "LAB-OLD",
+        "version": "2025-01",
+        "access": "public",
+        "tenant": "all",
+        "archived": true
+      }
+    ]
+  },
+  "7.11": {
+    "stored_chunks": 1286,
+    "duplicate_rows": 0
+  },
+  "7.12": {
+    "artifact_records": 1286,
+    "sha256": "e9b012abe50e2657ab54de3fc6217349c3e311f59dc0e319cd836d055f5a1b1e",
+    "config_fingerprint": "07cf40be315850d38c8ce6c2454c9acfd3b847c5cb468a7d59866b14058dd3da"
+  },
+  "8.1": {
+    "dimension": 384,
+    "max_sequence_length": 256,
+    "license": "Apache-2.0",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "files_checked": 11,
+    "valid_hashes": 11
+  },
+  "8.2": {
+    "vectors": 1282,
+    "shape": [
+      1282,
+      384
+    ],
+    "seconds": 50.88451717900011,
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "non_finite": 0
+  },
+  "8.3": {
+    "cosine": 0.681086003780365,
+    "normalized_dot": 0.6810859441757202,
+    "cosine_distance": 0.318913996219635
+  },
+  "8.4": {
+    "top_document": "PEP-0008",
+    "top3": [
+      {
+        "doc_id": "PEP-0008",
+        "score": 0.13850069881171395
+      },
+      {
+        "doc_id": "PEP-0257",
+        "score": 0.07772849573095945
+      },
+      {
+        "doc_id": "PEP-0636",
+        "score": 0.06223022077484873
+      }
+    ]
+  },
+  "8.5": {
+    "top_document": "PEP-0008",
+    "top3": [
+      {
+        "doc_id": "PEP-0008",
+        "score": 0.6474480628967285
+      },
+      {
+        "doc_id": "PEP-0572",
+        "score": 0.6263006329536438
+      },
+      {
+        "doc_id": "PEP-0257",
+        "score": 0.5240856409072876
+      }
+    ],
+    "same_first": true
+  },
+  "8.6": {
+    "top_document": "PEP-0008",
+    "rrf_constant": 60,
+    "unit": "chunk rank fusion followed by document deduplication",
+    "top3": [
+      {
+        "doc_id": "PEP-0008",
+        "score": 0.03252247488101534
+      },
+      {
+        "doc_id": "PEP-0257",
+        "score": 0.030798389007344232
+      },
+      {
+        "doc_id": "PEP-0572",
+        "score": 0.030017921146953404
+      }
+    ]
+  },
+  "8.7": {
+    "stored_vectors": 1286,
+    "dimension": 384,
+    "duplicate_rows": 0
+  },
+  "8.8": {
+    "same_top1": true,
+    "max_vector_error": 0.0,
+    "top_chunk": "295150637f79880af62b3fdabddabe8a5c0a0fe9e8c901e87cb51a21f2899211"
+  },
+  "8.9": {
+    "tenant_leaks": 0,
+    "admin_can_see_T1": true,
+    "archived_returned": false
+  },
+  "8.10": {
+    "evidence_tokens": 660,
+    "selected": 3,
+    "dropped": 7,
+    "budget": 700,
+    "includes_prompt_overhead": false
+  },
+  "8.11": {
+    "warm_latency": {
+      "lexical": {
+        "p50_ms": 1.0288360000458852,
+        "p95_ms": 2.2757169498618164,
+        "n": 12
+      },
+      "dense": {
+        "p50_ms": 0.2258795000216196,
+        "p95_ms": 0.58942205000676,
+        "n": 12
+      },
+      "hybrid": {
+        "p50_ms": 2.458760499962409,
+        "p95_ms": 2.5306651999130736,
+        "n": 12
+      }
+    },
+    "cold_embedding_ms": {
+      "p50": 12.856740499955777,
+      "p95": 23.57931584987227
+    }
+  },
+  "8.12": {
+    "mismatch_rejected": true,
+    "index_fingerprint": "a5885407f9ea8cbabe39ae4af35554f6dac9ceb66312e0fa67758cd7dcdad7dd"
+  },
+  "6.8": {
+    "documents_after_two_upserts": 28,
+    "vectors_in_same_file": true,
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  "6.12": {
+    "exit_code": 0,
+    "status": "passed",
+    "meaning": {
+      "passed": 0,
+      "failed": 1,
+      "error": 2
+    },
+    "stdout": "OK   sqlite_file_ok\nOK   integrity_ok\nOK   schema_users\nOK   schema_cases\nOK   schema_sessions\nOK   schema_messages\nOK   schema_documents\nOK   schema_chunks\nOK   seed_users\nOK   seed_cases\nOK   seed_documents\nOK   seed_chunks\nOK   no_orphan_cases\nOK   no_orphan_chunks\nOK   foreign_keys_declared\nOK   owner_index\nOK   idempotency_unique\nOK   documents_unique\nOK   embedding_dimensions\nOK   embedding_metadata_present\nOK   fk_rejects_orphan_case\nOK   transaction_rollback\nstatus: passed\n"
+  },
+  "9.1": {
+    "queries": 90,
+    "split_counts": {
+      "test": 30,
+      "dev": 30,
+      "train": 30
+    },
+    "answerability": {
+      "train": {
+        "answerable": 24,
+        "unanswerable": 6
+      },
+      "dev": {
+        "answerable": 24,
+        "unanswerable": 6
+      }
+    },
+    "exact_duplicate_texts": 0,
+    "test_labels_available": false
+  },
+  "9.2": {
+    "ranked_BAC": {
+      "recall": 1.0,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    "ranked_BCD": {
+      "recall": 0.0,
+      "mrr": 0,
+      "ndcg": 0.0
+    }
+  },
+  "9.3": {
+    "answerable_dev": 24,
+    "metrics": {
+      "lexical": {
+        "recall": 0.9583333333333334,
+        "mrr": 0.8958333333333334,
+        "ndcg": 0.9121995525297656
+      },
+      "dense": {
+        "recall": 0.9583333333333334,
+        "mrr": 0.8888888888888888,
+        "ndcg": 0.9067441461309548
+      },
+      "hybrid": {
+        "recall": 1.0,
+        "mrr": 0.9305555555555557,
+        "ndcg": 0.9484108127976215
+      }
+    }
+  },
+  "9.4": {
+    "selected_method": "hybrid",
+    "lock_hash": "6d663f1dd0d7e9929f456d4766213bba9bf17491a186f7c4eaf4eb0487110ef5",
+    "test_gold_accessed": false
+  },
+  "9.5": {
+    "k_sensitivity": {
+      "1": {
+        "recall": 0.875,
+        "mrr": 0.875,
+        "ndcg": 0.875
+      },
+      "3": {
+        "recall": 1.0,
+        "mrr": 0.9305555555555557,
+        "ndcg": 0.9484108127976215
+      },
+      "5": {
+        "recall": 1.0,
+        "mrr": 0.9305555555555557,
+        "ndcg": 0.9484108127976215
+      }
+    }
+  },
+  "9.6": {
+    "recall_errors": 0,
+    "first_three": [],
+    "unit": "document, not passage support"
+  },
+  "9.7": {
+    "predictions": 30,
+    "unique_query_ids": 30,
+    "test_metric": "unavailable: hidden gold"
+  },
+  "9.8": {
+    "lower_95": 1.0,
+    "upper_95": 1.0,
+    "bootstrap_samples": 2000,
+    "unit": "query resampling; semantic family independence is not guaranteed"
+  },
+  "9.9": {
+    "threshold": 0.3909568190574646,
+    "balanced_accuracy": 1.0,
+    "candidates": 32,
+    "confusion_matrix": [
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        24
+      ]
+    ]
+  },
+  "9.10": {
+    "predictions": 30,
+    "accepted": 24,
+    "abstained": 6,
+    "test_gold_accessed": false
+  },
+  "9.11": {
+    "queries": 6,
+    "ablation": {
+      "110": {
+        "vectors": 3282,
+        "recall": 1.0,
+        "mrr": 0.8333333333333334,
+        "ndcg": 0.8769765845238192
+      },
+      "220": {
+        "vectors": 1282,
+        "recall": 1.0,
+        "mrr": 0.8333333333333334,
+        "ndcg": 0.8769765845238192
+      }
+    },
+    "changes_to_locked_test_configuration": false
+  },
+  "9.12": {
+    "limitations": 4,
+    "unsupported_claims": [
+      "Small English PEP corpus does not establish Persian retrieval quality.",
+      "Synthetic and semantically related queries do not establish independent real-user performance.",
+      "Document relevance does not establish passage entailment or generated-answer factuality."
+    ],
+    "config_hash": "6d663f1dd0d7e9929f456d4766213bba9bf17491a186f7c4eaf4eb0487110ef5"
+  },
+  "10.1": {
+    "requests": 480,
+    "class_split_counts": {
+      "dev": {
+        "both": 20,
+        "history": 20,
+        "research": 20,
+        "unsupported": 20
+      },
+      "test": {
+        "both": 20,
+        "history": 20,
+        "research": 20,
+        "unsupported": 20
+      },
+      "train": {
+        "both": 80,
+        "history": 80,
+        "research": 80,
+        "unsupported": 80
+      }
+    },
+    "shared_template_groups": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    }
+  },
+  "10.2": {
+    "accuracy": 0.625,
+    "macro_F1": 0.6249999999999999
+  },
+  "10.3": {
+    "selected_C": 0.1,
+    "dev_macro_F1": {
+      "0.1": 0.30000000000000004,
+      "1": 0.30000000000000004,
+      "10": 0.30000000000000004
+    }
+  },
+  "10.4": {
+    "shapes": {
+      "train": [
+        320,
+        384
+      ],
+      "dev": [
+        80,
+        384
+      ],
+      "test": [
+        80,
+        384
+      ]
+    },
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "encoder_frozen": true
+  },
+  "10.5": {
+    "trainable_parameters": 24900,
+    "input_shape": [
+      2,
+      384
+    ],
+    "output_shape": [
+      2,
+      4
+    ],
+    "formula": "384*64+64+64*4+4"
+  },
+  "10.6": {
+    "epochs_run": 13,
+    "best_epoch": 3,
+    "best_dev_macro_F1": 0.7971602434077079,
+    "patience": 10,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.3251348614692688,
+        "dev_macro_F1": 0.6248548199767712
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.0990744233131409,
+        "dev_macro_F1": 0.754996776273372
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.8219174385070801,
+        "dev_macro_F1": 0.7971602434077079
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.5679219126701355,
+        "dev_macro_F1": 0.7971602434077079
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.3970823884010315,
+        "dev_macro_F1": 0.7406559877955758
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.27711636275053025,
+        "dev_macro_F1": 0.7818181818181819
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.19991643875837325,
+        "dev_macro_F1": 0.7818181818181819
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.13566943183541297,
+        "dev_macro_F1": 0.7619047619047619
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.10657120048999787,
+        "dev_macro_F1": 0.7619047619047619
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.07932072505354881,
+        "dev_macro_F1": 0.7619047619047619
+      },
+      {
+        "epoch": 11,
+        "train_loss": 0.06344350576400756,
+        "dev_macro_F1": 0.7619047619047619
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.05057792216539383,
+        "dev_macro_F1": 0.7147955809701638
+      },
+      {
+        "epoch": 13,
+        "train_loss": 0.04633117709308863,
+        "dev_macro_F1": 0.7147955809701638
+      }
+    ]
+  },
+  "10.7": {
+    "metrics": {
+      "rules": {
+        "accuracy": 0.75,
+        "macro_F1": 0.75
+      },
+      "linear": {
+        "accuracy": 0.875,
+        "macro_F1": 0.8666666666666666
+      },
+      "neural": {
+        "accuracy": 0.8625,
+        "macro_F1": 0.8541588492808004
+      }
+    },
+    "neural_confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        19,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        10
+      ]
+    ],
+    "class_order": [
+      "both",
+      "history",
+      "research",
+      "unsupported"
+    ]
+  },
+  "10.8": {
+    "thresholds": {
+      "0.5": {
+        "coverage": 0.4375,
+        "accepted": 35,
+        "conditional_accuracy": 1.0
+      },
+      "0.7": {
+        "coverage": 0.0,
+        "accepted": 0,
+        "conditional_accuracy": null
+      },
+      "0.9": {
+        "coverage": 0.0,
+        "accepted": 0,
+        "conditional_accuracy": null
+      }
+    },
+    "calibrated_probability": false
+  },
+  "10.9": {
+    "clarify_dev": 80,
+    "total_dev": 80,
+    "threshold": 0.7,
+    "confident_unsupported": 0
+  },
+  "10.10": {
+    "test_errors": 11,
+    "examples": [
+      {
+        "query": "List chronological case notes for pattern matching.",
+        "truth": "history",
+        "prediction": "both",
+        "confidence": 0.4021066725254059
+      },
+      {
+        "query": "Fabricate evidence to justify typing.",
+        "truth": "unsupported",
+        "prediction": "research",
+        "confidence": 0.39737462997436523
+      },
+      {
+        "query": "Fabricate evidence to justify packaging.",
+        "truth": "unsupported",
+        "prediction": "research",
+        "confidence": 0.37189754843711853
+      }
+    ],
+    "selection": "first up to three errors"
+  },
+  "10.11": {
+    "masked_macro_F1": 0.5166666666666666,
+    "original_macro_F1": 0.30000000000000004,
+    "topics": [
+      "pattern matching",
+      "async functions",
+      "data classes",
+      "code style",
+      "generators",
+      "exceptions",
+      "coroutines",
+      "packaging",
+      "versions",
+      "typing"
+    ],
+    "refit_on_dev": false
+  },
+  "10.12": {
+    "weights_saved": true,
+    "class_order": [
+      "both",
+      "history",
+      "research",
+      "unsupported"
+    ],
+    "model_card": {
+      "synthetic": true,
+      "group_split": "template_group disjoint",
+      "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "language": "English; Persian not evaluated",
+      "classes": [
+        "both",
+        "history",
+        "research",
+        "unsupported"
+      ],
+      "dev_macro_F1": 0.7971602434077079,
+      "test_metrics": {
+        "rules": {
+          "accuracy": 0.75,
+          "macro_F1": 0.75
+        },
+        "linear": {
+          "accuracy": 0.875,
+          "macro_F1": 0.8666666666666666
+        },
+        "neural": {
+          "accuracy": 0.8625,
+          "macro_F1": 0.8541588492808004
+        }
+      },
+      "inappropriate_uses": [
+        "authorization decisions",
+        "real-world safety guarantee",
+        "uncalibrated confidence as probability"
+      ],
+      "weights": "router_weights.pt",
+      "fallback_threshold": 0.7
+    }
+  },
+  "11.1": {
+    "secret_fields": 0,
+    "state_fields": [
+      "query",
+      "user",
+      "case",
+      "route",
+      "evidence",
+      "history",
+      "answer",
+      "trace",
+      "correlation_id",
+      "denied"
+    ],
+    "per_request": true
+  },
+  "11.2": {
+    "nonowner_denied": true,
+    "evidence": 0,
+    "trace": [
+      "deny"
+    ]
+  },
+  "11.3": {
+    "sample_route": "clarify",
+    "tool_mapping": {
+      "history": [
+        "history"
+      ],
+      "research": [
+        "research"
+      ],
+      "both": [
+        "history",
+        "research"
+      ],
+      "clarify": [],
+      "unsupported": []
+    },
+    "controlled_no_private_reads": true
+  },
+  "11.4": {
+    "authorized_history_rows": 1,
+    "history_role": "private context, not scientific citation",
+    "research_allowed": true
+  },
+  "11.5": {
+    "sample_claim": {
+      "text": ":\n   :class: good\n\n   my_list = [\n       1, 2, 3,\n       4, 5, 6,\n   ]\n   result = some_function_that_takes_arguments(\n       'a', 'b', 'c',\n       'd', 'e', 'f',\n   )\n\nTabs or Spaces?\n---------------\n\nSpaces are the preferred indentation method.\n\nTabs should be used solely to remain consistent with code that is\nalready indented with tabs.\n\nPython disallows mixing tabs and spaces for indentation.\n\n\nMaximum Line Length\n-------------------\n\nLimit all lines to a maximum of 79 characters.\n\nFor flowing long blocks of text with fewer structural restrictions\n(docstrings or comments), the line length should be limited to 72\ncharacters.\n\nLimiting the required editor window width makes it possible to have\nseveral files open side by side, and works well when using code\nreview tools that present the two versions in adjacent columns.\n\nThe default",
+      "citation_ids": [
+        "295150637f79880af62b3fdabddabe8a5c0a0fe9e8c901e87cb51a21f2899211"
+      ],
+      "quote": ":\n   :class: good\n\n   my_list = [\n       1, 2, 3,\n       4, 5, 6,\n   ]\n   result = some_function_that_takes_arguments(\n       'a', 'b', 'c',\n       'd', 'e', 'f',\n   )\n\nTabs or Spaces?\n---------------\n\nSpaces are the preferred indentation method.\n\nTabs should be used solely to remain consistent with code that is\nalready indented with tabs.\n\nPython disallows mixing tabs and spaces for indentation.\n\n\nMaximum Line Length\n-------------------\n\nLimit all lines to a maximum of 79 characters.\n\nFor flowing long blocks of text with fewer structural restrictions\n(docstrings or comments), the line length should be limited to 72\ncharacters.\n\nLimiting the required editor window width makes it possible to have\nseveral files open side by side, and works well when using code\nreview tools that present the two versions in adjacent columns.\n\nThe default"
+    },
+    "modes": {
+      "unsupported": "general",
+      "research": "rag",
+      "both": "both"
+    },
+    "general_limitation": "Extractive baseline cannot produce free-form general answers."
+  },
+  "11.6": {
+    "accepted": 1,
+    "rejected": 3,
+    "reasons": {
+      "GOOD": [
+        true,
+        "valid"
+      ],
+      "UNKNOWN_ID": [
+        false,
+        "unknown_id"
+      ],
+      "MISSING_CITATION": [
+        false,
+        "missing_citation"
+      ],
+      "BAD_QUOTE": [
+        false,
+        "quote_not_found"
+      ]
+    }
+  },
+  "11.7": {
+    "structural_fooled": true,
+    "extractive_rejected": true,
+    "strict_reason": "claim_quote_mismatch"
+  },
+  "11.8": {
+    "steps": [
+      "authorize",
+      "route",
+      "generate",
+      "validate"
+    ],
+    "final_route": "clarify",
+    "claims": 0,
+    "actual_langgraph": true
+  },
+  "11.9": {
+    "unauthorized_evidence": 0,
+    "next_owner_authorized": true,
+    "state_isolated": true
+  },
+  "11.10": {
+    "attack_fixtures": 30,
+    "test_secret_leaks": 0,
+    "live_LLM_calls": 0,
+    "scope": "extractive data/instruction boundary only"
+  },
+  "11.11": {
+    "all_changes_missed": true,
+    "distinct_keys": 6,
+    "same_query_different_authorization_separated": true
+  },
+  "11.12": {
+    "distinct_correlation_ids": 1,
+    "remaining_secrets": 0,
+    "events": 4,
+    "private_full_text_logged": false
+  },
+  "12.1": {
+    "engine": "SQLite",
+    "statuses": [
+      200,
+      200,
+      403
+    ]
+  },
+  "12.2": {
+    "status": 200,
+    "correlation_id_present": true,
+    "claims": 0
+  },
+  "12.3": {
+    "statuses": [
+      401,
+      403,
+      422,
+      422
+    ],
+    "private_summary_leaked": false
+  },
+  "12.4": {
+    "same_repeated_id": true,
+    "stored_for_key": 1,
+    "body_conflict": 409
+  },
+  "12.5": {
+    "view_saved": true,
+    "escaped_text": "&lt;script&gt;alert(&quot;x&quot;)&lt;/script&gt;",
+    "DOM_text_api": "textContent"
+  },
+  "12.6": {
+    "events": 4800,
+    "traces": 800,
+    "incomplete": 0,
+    "p50_ms": 3005.5,
+    "p95_ms": 4299.299999999999,
+    "error_rate_per_step": {
+      "answer_generated": 0.0275,
+      "citations_validated": 0.0,
+      "question_received": 0.0,
+      "response_sent": 0.0,
+      "retrieval_completed": 0.0,
+      "route_selected": 0.0
+    },
+    "expected_steps": [
+      "answer_generated",
+      "citations_validated",
+      "question_received",
+      "response_sent",
+      "retrieval_completed",
+      "route_selected"
+    ]
+  },
+  "12.7": {
+    "passed_controls": 5,
+    "total_controls": 5
+  },
+  "12.8": {
+    "pipeline_steps": 7,
+    "live_deployment": false
+  },
+  "12.9": {
+    "status": "passed",
+    "checks_run": 22,
+    "checks_passed": 22,
+    "exit_code": 0
+  },
+  "12.10": {
+    "manifest_files": 10,
+    "credentials_or_personal_paths_included": false,
+    "hash_algorithm": "SHA-256"
+  },
+  "12.11": {
+    "distinct_grading_states": 3,
+    "student_JSON_alone_sufficient": false,
+    "rubric": {
+      "schema_seed": "Independently inspect the uploaded SQLite bytes using the supplied checker, including FK and rollback probes.",
+      "independent_tests": "Recompute counts, validate prediction schema and notebook outputs; never trust student JSON alone.",
+      "states": {
+        "passed": "Independent assertions agree with executed evidence.",
+        "failed": "An executed check contradicts the required contract; deduct the associated requirement.",
+        "error": "Infrastructure or unreadable artifact prevents evaluation; diagnose and rerun rather than assigning a model-quality failure."
+      },
+      "analysis_review": "Read Persian analyses for provenance, train/dev/test discipline, limitations and consistency with outputs."
+    }
+  },
+  "12.12": {
+    "explicitly_unexecuted": 6,
+    "next_priorities": 5,
+    "report": {
+      "actually_executed": [
+        "FastAPI TestClient and HTTPX MockTransport",
+        "SQLite migrations, idempotent seed, ownership, FK, rollback and official checker",
+        "Pinned local embedding, lexical/dense/RRF retrieval and train/dev evaluation",
+        "PyTorch neural router training and held-out comparison",
+        "Real LangGraph invocation and extractive citation validation"
+      ],
+      "fixtures": [
+        "users and case data",
+        "provider responses and fictional prices",
+        "signed identity tokens",
+        "30 untrusted attack payloads",
+        "synthetic latency events"
+      ],
+      "not_executed": [
+        "live Google OIDC",
+        "paid or live LLM calls",
+        "PostgreSQL or production vector DB",
+        "public deployment",
+        "live Gmail integration",
+        "hidden-gold retrieval test scoring"
+      ],
+      "priorities": [
+        "Replace fixture identity with validated OIDC and enforce tenant policy across every store.",
+        "Evaluate with representative real data and independent semantic families, including Persian if required.",
+        "Add semantic citation validation and live-model adversarial evaluation under limited tool authority.",
+        "Establish SLOs, real traces, load tests and per-request deadlines.",
+        "Implement reviewed releases, migration backups, restore drills, consent and secret rotation."
+      ],
+      "claim_limit": "Passing a small synthetic extractive POC does not establish production readiness or safety of a live autonomous LLM."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "size": 220,
+  "overlap": 40,
+  "offset_unit": "Unicode code points; raw newlines preserved",
+  "corpus": "b80c7bf8d5a89fc47b732504a9e1219b79677531",
+  "tokenizer_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "fingerprint": "07cf40be315850d38c8ce6c2454c9acfd3b847c5cb468a7d59866b14058dd3da"
+}

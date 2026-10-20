@@ -1,0 +1,11 @@
+{
+  "method": "hybrid",
+  "k": 3,
+  "selected_on": "dev MRR@3",
+  "tie_order": [
+    "lexical",
+    "dense",
+    "hybrid"
+  ],
+  "index_fingerprint": "a5885407f9ea8cbabe39ae4af35554f6dac9ceb66312e0fa67758cd7dcdad7dd"
+}

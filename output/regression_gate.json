@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "ownership": true,
+    "idempotency": true,
+    "embedding_version": true,
+    "citation": true,
+    "log_redaction": true
+  },
+  "passed": true,
+  "evidence_questions": [
+    "6.6",
+    "12.3",
+    "12.4",
+    "8.12",
+    "11.6",
+    "11.7",
+    "6.11",
+    "11.12"
+  ]
+}

@@ -1,0 +1,21 @@
+user_id,role,tenant,display_name,synthetic
+U-000,admin,T-0,Synthetic learner 0,True
+U-001,student,T-1,Synthetic learner 1,True
+U-002,student,T-0,Synthetic learner 2,True
+U-003,student,T-1,Synthetic learner 3,True
+U-004,student,T-0,Synthetic learner 4,True
+U-005,student,T-1,Synthetic learner 5,True
+U-006,student,T-0,Synthetic learner 6,True
+U-007,student,T-1,Synthetic learner 7,True
+U-008,student,T-0,Synthetic learner 8,True
+U-009,student,T-1,Synthetic learner 9,True
+U-010,student,T-0,Synthetic learner 10,True
+U-011,student,T-1,Synthetic learner 11,True
+U-012,student,T-0,Synthetic learner 12,True
+U-013,student,T-1,Synthetic learner 13,True
+U-014,student,T-0,Synthetic learner 14,True
+U-015,student,T-1,Synthetic learner 15,True
+U-016,student,T-0,Synthetic learner 16,True
+U-017,student,T-1,Synthetic learner 17,True
+U-018,student,T-0,Synthetic learner 18,True
+U-019,student,T-1,Synthetic learner 19,True

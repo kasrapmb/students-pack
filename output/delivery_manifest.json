@@ -1,0 +1,45 @@
+{
+  "files": {
+    "day3.sqlite": {
+      "sha256": "4052bd180497eb232174afe70a0c1ebdcc51b627dd8c53253b2d9373c6a06597",
+      "bytes": 5459968
+    },
+    "test_predictions.jsonl": {
+      "sha256": "a88ee76ea420fbe5b53aa91f6a16150d39b840cda183b225e94d5dc0a233f466",
+      "bytes": 2760
+    },
+    "answerability_predictions.jsonl": {
+      "sha256": "58a3f3806da824a2e16eeda3de2d57195d00b22ba03d57257d23067361fdf8f2",
+      "bytes": 2501
+    },
+    "chunks.jsonl": {
+      "sha256": "e9b012abe50e2657ab54de3fc6217349c3e311f59dc0e319cd836d055f5a1b1e",
+      "bytes": 1569088
+    },
+    "retrieval_lock.json": {
+      "sha256": "d01844a1b8eed6b204b4c22ae7c57a39eec20821a6e106a1d00e7cfaaa250737",
+      "bytes": 218
+    },
+    "answerability_lock.json": {
+      "sha256": "0a1e983270954463bd8c852e8fc356405f37039f0e9840ef379dd9f52ab7f152",
+      "bytes": 194
+    },
+    "index_metadata.json": {
+      "sha256": "b2098cf59bad5905e4066da337a0c4b32a78e6510e24bb90d0a14bfa3253e584",
+      "bytes": 359
+    },
+    "router_weights.pt": {
+      "sha256": "a6a4e15bbe59313622373f8e2578bd7a0eee7f68ce66051242529ce389ff7bbd",
+      "bytes": 102115
+    },
+    "regression_gate.json": {
+      "sha256": "19ecba0752c89c52bcacb48f288ecb3e11a5a1c8b11c41f3c9ec2d9e0d68b5b6",
+      "bytes": 292
+    },
+    "database_check.json": {
+      "sha256": "a182345ef4884ab56150d88bf2af98de65f10c4e6f92b8db7b100a7140f1ff07",
+      "bytes": 2070
+    }
+  },
+  "seed": 20261015
+}

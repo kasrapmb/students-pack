@@ -1,0 +1,30 @@
+[
+  {
+    "event_type": "authorize",
+    "correlation_id": "f055186b9ad24ad787dc5bc66aa9cca1",
+    "metadata": {
+      "route": ""
+    }
+  },
+  {
+    "event_type": "route",
+    "correlation_id": "f055186b9ad24ad787dc5bc66aa9cca1",
+    "metadata": {
+      "route": "clarify"
+    }
+  },
+  {
+    "event_type": "generate",
+    "correlation_id": "f055186b9ad24ad787dc5bc66aa9cca1",
+    "metadata": {
+      "route": "clarify"
+    }
+  },
+  {
+    "event_type": "validate",
+    "correlation_id": "f055186b9ad24ad787dc5bc66aa9cca1",
+    "metadata": {
+      "route": "clarify"
+    }
+  }
+]

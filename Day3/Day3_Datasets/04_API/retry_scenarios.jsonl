@@ -1,0 +1,6 @@
+{"scenario": "success", "statuses": [200]}
+{"scenario": "rate_limit", "statuses": [429, 200], "retry_after": 2}
+{"scenario": "transient", "statuses": [503, 503, 200]}
+{"scenario": "unauthorized", "statuses": [401]}
+{"scenario": "invalid_input", "statuses": [422]}
+{"scenario": "exhausted", "statuses": [503, 503, 503, 503]}
